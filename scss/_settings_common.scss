@@ -148,16 +148,6 @@ $global-flexbox: false;
 @import 'node_modules/ebi-framework/css/ebi-css-build/pagination'; // custom badge class
 @import 'node_modules/ebi-framework/css/ebi-css-build/ebi_visibility'; // extra visibility classes
 @import 'node_modules/ebi-framework/css/ebi-css-build/ebi_foundation_overides';
-@import '../node_modules/ebi-framework/css/ebi-css-build/tag';
-@import '../node_modules/ebi-framework/css/ebi-css-build/ebi_utility_styles';
-@import '../node_modules/ebi-framework/css/ebi-css-build/ebi_table_styles';
-@import '../node_modules/ebi-framework/css/ebi-css-build/ebi_print_styles';
-@import '../node_modules/ebi-framework/css/ebi-css-build/ebi_masthead_styles';
-@import '../node_modules/ebi-framework/css/ebi-css-build/ebi_footer_styles';
-@import '../node_modules/ebi-framework/css/ebi-css-build/ebi_code_styles';
-@import '../node_modules/ebi-framework/css/ebi-css-build/ebi_color_styles';
-@import '../node_modules/ebi-framework/css/ebi-css-build/ebi_clearable_inputs';
-@import '../node_modules/ebi-framework/css/ebi-css-build/embl_selector'; // EMBL Dropdown selector for .masthead-black-bar
 
 // Include Foundation dependencies in the build
 // Via: https://github.com/zurb/foundation-sites/issues/9467#issuecomment-267598540

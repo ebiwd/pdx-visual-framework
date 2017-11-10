@@ -20,7 +20,7 @@
   "devDependencies": {
     "csso": "^3.4.0",
     "csso-cli": "^1.1.0",
-    "ebi-framework": "^1.3.0-alpha.1",
+    "ebi-framework": "^1.3.0-alpha.2",
     "node-sass": "^4.6.0"
   }
 }
