@@ -9,7 +9,7 @@ This project is a boilerplate template for projects that would like to leverage 
 
 You'll need to use npm to develop with this.
 
-`npm install ebi-framework --save-dev`
+`npm install`
 
 ### 1. Customise
 
