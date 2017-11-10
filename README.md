@@ -15,6 +15,8 @@ You'll need to use npm to develop with this.
 
 Edit the `.scss` files in `/scss`
 
-### 2. Build
+### 2. Build, develop
 
-Run `npm run scss` and your `app.css` file will be generated in `/css`.
+- `npm run sass:build`: build the sass into `./css/app.css`
+- `npm run sass:watch`: watch for changes to the sass files nad run `sass:build`
+- `npm run devel`: watch for changes and serve them via browser-sync
