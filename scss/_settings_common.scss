@@ -54,18 +54,12 @@
 
 // Imports
 // ------
-// You could override any of these by cloning the file to the local directory
-//  and update the @import.
 
 // Sass utilities
 @import 'node_modules/foundation-sites/scss/util/util';
 
 // Global variables and styles
 @import 'node_modules/foundation-sites/scss/global';
-// @import 'node_modules/ebi-framework/css/ebi-css-build/ebi_theme_settings'; // override foundation with EBI styling
-// @import 'theme_settings'; // override foundation with EBI styling
-
-
 
 // Colours
 $ebi-colour-dark: #222;
@@ -102,6 +96,10 @@ $black: #0a0a0a;
 $white: #fefefe;
 
 $body-background: $ebi-colour-white;
+
+// masthead
+$masthead-background: $secondary-color;
+$masthead-font-color: $body-background;
 
 // typography
 $body-antialiased: true;
