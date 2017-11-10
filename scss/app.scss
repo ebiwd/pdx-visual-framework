@@ -3,11 +3,80 @@
 @import '../node_modules/ebi-framework/css/ebi-css-build/ebi_dev_note';
 @import 'node_modules/foundation-sites/scss/util/util';
 @import 'node_modules/foundation-sites/scss/global';
-@import '_settings_common.scss';
+@import '_app_theme.scss';
 
 // simple imports for the font while we test
 @import 'https://code.cdn.mozilla.net/fonts/fira.css';
 @import 'https://cdn.rawgit.com/tonsky/FiraCode/1.204/distr/fira_code.css';
+
+// EBI Visual framework sass imports
+@import 'node_modules/ebi-framework/css/ebi-css-build/badge'; // custom badge class
+@import 'node_modules/ebi-framework/css/ebi-css-build/pagination'; // custom badge class
+@import 'node_modules/ebi-framework/css/ebi-css-build/ebi_visibility'; // extra visibility classes
+@import 'node_modules/ebi-framework/css/ebi-css-build/ebi_foundation_overides';
+@import '../node_modules/ebi-framework/css/ebi-css-build/ebi_base_styles';
+@import '../node_modules/ebi-framework/css/ebi-css-build/ebi_utility_styles';
+@import '../node_modules/ebi-framework/css/ebi-css-build/ebi_table_styles';
+@import '../node_modules/ebi-framework/css/ebi-css-build/ebi_print_styles';
+@import '../node_modules/ebi-framework/css/ebi-css-build/ebi_masthead_styles';
+@import '../node_modules/ebi-framework/css/ebi-css-build/ebi_footer_styles';
+@import '../node_modules/ebi-framework/css/ebi-css-build/ebi_related_pattern';
+@import '../node_modules/ebi-framework/css/ebi-css-build/ebi_code_styles';
+@import '../node_modules/ebi-framework/css/ebi-css-build/ebi_color_styles';
+@import '../node_modules/ebi-framework/css/ebi-css-build/ebi_clearable_inputs';
+@import '../node_modules/ebi-framework/css/ebi-css-build/ebi_tag';
+@import '../node_modules/ebi-framework/css/ebi-css-build/embl_selector'; // EMBL Dropdown selector for .masthead-black-bar
+
+// Include Foundation dependencies in the build
+// Via: https://github.com/zurb/foundation-sites/issues/9467#issuecomment-267598540
+@import 'node_modules/foundation-sites/_vendor/normalize-scss/sass/normalize';
+@import 'node_modules/foundation-sites/_vendor/sassy-lists/stylesheets/helpers/missing-dependencies';
+@import 'node_modules/foundation-sites/_vendor/sassy-lists/stylesheets/helpers/true';
+@import 'node_modules/foundation-sites/_vendor/sassy-lists/stylesheets/functions/purge';
+@import 'node_modules/foundation-sites/_vendor/sassy-lists/stylesheets/functions/remove';
+@import 'node_modules/foundation-sites/_vendor/sassy-lists/stylesheets/functions/replace';
+@import 'node_modules/foundation-sites/_vendor/sassy-lists/stylesheets/functions/to-list';
+
+// Components
+@import 'node_modules/foundation-sites/scss/grid/grid';
+@import 'node_modules/foundation-sites/scss/typography/typography';
+@import 'node_modules/foundation-sites/scss/forms/forms';
+@import 'node_modules/foundation-sites/scss/components/visibility';
+@import 'node_modules/foundation-sites/scss/components/float';
+@import 'node_modules/foundation-sites/scss/components/button';
+@import 'node_modules/foundation-sites/scss/components/button-group';
+@import 'node_modules/foundation-sites/scss/components/accordion-menu';
+@import 'node_modules/foundation-sites/scss/components/accordion';
+// @import 'node_modules/foundation-sites/scss/components/badge'; // EBI override to remove sizing spec
+@import 'node_modules/foundation-sites/scss/components/breadcrumbs';
+@import 'node_modules/foundation-sites/scss/components/callout';
+@import 'node_modules/foundation-sites/scss/components/close-button';
+@import 'node_modules/foundation-sites/scss/components/drilldown';
+@import 'node_modules/foundation-sites/scss/components/dropdown-menu';
+@import 'node_modules/foundation-sites/scss/components/dropdown';
+@import 'node_modules/foundation-sites/scss/components/flex';
+@import 'node_modules/foundation-sites/scss/components/responsive-embed';
+@import 'node_modules/foundation-sites/scss/components/label';
+@import 'node_modules/foundation-sites/scss/components/media-object';
+@import 'node_modules/foundation-sites/scss/components/menu';
+@import 'node_modules/foundation-sites/scss/components/menu-icon';
+@import 'node_modules/foundation-sites/scss/components/off-canvas';
+@import 'node_modules/foundation-sites/scss/components/orbit';
+// @import 'node_modules/foundation-sites/scss/components/pagination'; // EBI override
+@import 'node_modules/foundation-sites/scss/components/progress-bar';
+@import 'node_modules/foundation-sites/scss/components/reveal';
+@import 'node_modules/foundation-sites/scss/components/slider';
+@import 'node_modules/foundation-sites/scss/components/sticky';
+@import 'node_modules/foundation-sites/scss/components/switch';
+@import 'node_modules/foundation-sites/scss/components/table';
+@import 'node_modules/foundation-sites/scss/components/tabs';
+@import 'node_modules/foundation-sites/scss/components/title-bar';
+@import 'node_modules/foundation-sites/scss/components/top-bar';
+@import 'node_modules/foundation-sites/scss/components/thumbnail';
+@import 'node_modules/foundation-sites/scss/components/tooltip';
+// @import 'libraries/motion-ui/src/motion-ui';
+
+
 
 // Core Foundation includes
 // Note: The EBI Visual framework does not use flex at the moment
