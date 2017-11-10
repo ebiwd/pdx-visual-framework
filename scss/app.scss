@@ -1,9 +1,16 @@
 // Include the common settings
+@import '../node_modules/ebi-framework/css/ebi-css-build/ebi_theme_settings';
+@import '../node_modules/ebi-framework/css/ebi-css-build/ebi_dev_note';
+@import 'node_modules/foundation-sites/scss/util/util';
+@import 'node_modules/foundation-sites/scss/global';
 @import '_settings_common.scss';
 
-// 38. Invoke build process
-// ------------------------
+// simple imports for the font while we test
+@import 'https://code.cdn.mozilla.net/fonts/fira.css';
+@import 'https://cdn.rawgit.com/tonsky/FiraCode/1.204/distr/fira_code.css';
 
+// Core Foundation includes
+// Note: The EBI Visual framework does not use flex at the moment
 @mixin foundation-everything($flex: false) {
   @if $flex {
     $global-flexbox: true !global;
@@ -49,7 +56,6 @@
   @include foundation-tooltip;
   @include foundation-top-bar;
   @include foundation-visibility-classes;
-  @include ebi-visibility;
   @include foundation-float-classes;
 
   @if $use-animations {
@@ -62,35 +68,15 @@
   }
 }
 
-// invoke Foundation
+// include Foundation
 @include foundation-everything;
 
 // ebi-specific fixes
 @include ebi-foundation-overides;
 
-// Include all EBI branding
+// Include all EBI styles
 $include-ebi-global-styles: true !global;
 $include-ebi-extra-styles: true !global;
-
-// Various includes
-// Various includes
-@import '../node_modules/ebi-framework/css/ebi-css-build/ebi_theme_settings';
-@import '../node_modules/ebi-framework/css/ebi-css-build/ebi_base_styles';
-@import '../node_modules/ebi-framework/css/ebi-css-build/ebi_utility_styles';
-@import '../node_modules/ebi-framework/css/ebi-css-build/ebi_table_styles';
-@import '../node_modules/ebi-framework/css/ebi-css-build/ebi_print_styles';
-@import '../node_modules/ebi-framework/css/ebi-css-build/ebi_masthead_styles';
-@import '../node_modules/ebi-framework/css/ebi-css-build/ebi_footer_styles';
-@import '../node_modules/ebi-framework/css/ebi-css-build/ebi_related_pattern';
-@import '../node_modules/ebi-framework/css/ebi-css-build/ebi_code_styles';
-@import '../node_modules/ebi-framework/css/ebi-css-build/ebi_color_styles';
-@import '../node_modules/ebi-framework/css/ebi-css-build/ebi_clearable_inputs';
-@import '../node_modules/ebi-framework/css/ebi-css-build/ebi_tag';
-// @import '../node_modules/ebi-framework/css/ebi-css-build/embl_selector'; // EMBL Dropdown selector for .masthead-black-bar
-
-// simple imports for the font while we test
-@import 'https://code.cdn.mozilla.net/fonts/fira.css';
-@import 'https://cdn.rawgit.com/tonsky/FiraCode/1.204/distr/fira_code.css';
 
 // ebi-styles
 @if $include-ebi-global-styles {
@@ -99,7 +85,7 @@ $include-ebi-extra-styles: true !global;
   @include ebi-masthead-styles;
   @include ebi-footer-styles;
   @include ebi-color-styles;
-  // @include embl-selector;
+  @include embl-selector;
 }
 @if $include-ebi-extra-styles {
   @include ebi-print-styles;
@@ -108,4 +94,5 @@ $include-ebi-extra-styles: true !global;
   @include ebi-code-styles;
   @include ebi-related-pattern;
   @include ebi-tag;
+  @include ebi-visibility;
 }
