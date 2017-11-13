@@ -1,5 +1,9 @@
 // This is where you should begin to create your service/website look and feel.
 
+// Include all on or only the core global styles
+$include-ebi-global-styles: true !global;
+$include-ebi-extra-styles: true !global;
+
 // Imports any needed fonts
 @import 'https://code.cdn.mozilla.net/fonts/fira.css';
 @import 'https://cdn.rawgit.com/tonsky/FiraCode/1.204/distr/fira_code.css';

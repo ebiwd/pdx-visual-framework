@@ -138,11 +138,6 @@
 
 // ebi-specific fixes
 @include ebi-foundation-overides;
-
-// Include all EBI styles
-$include-ebi-global-styles: true !global;
-$include-ebi-extra-styles: true !global;
-
 // ebi-styles
 @if $include-ebi-global-styles {
   @include ebi-base-styles;
