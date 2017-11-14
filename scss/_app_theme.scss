@@ -9,9 +9,9 @@ $include-ebi-extra-styles: true !global;
 @import 'https://cdn.rawgit.com/tonsky/FiraCode/1.204/distr/fira_code.css';
 
 // Colours
-$ebi-colour-dark: #222;
+$ebi-colour-dark: #000;
 $ebi-colour-light: #f8f8f8;
-$ebi-colour-dark-grey: #555;
+$ebi-colour-dark-grey: rgb(47,46,59);
 $ebi-colour-medium-grey: #777;
 $ebi-colour-light-grey: #eaeaea;
 $ebi-colour-light-green: rgb(109,171,73);
@@ -22,10 +22,13 @@ $ebi-colour-orange: rgb(251,106,42);
 $ebi-colour-blue: rgb(0,134,180);
 $ebi-colour-white: rgb(255,255,255);
 
-$primary-color: $ebi-colour-petrol;
-$secondary-color: $ebi-colour-dark-grey;
+$pdx-colour-blue: rgb(61,113,203);
+$pdx-colour-green: rgb(94,168,143);
 
-$ebi-colour-main: $ebi-colour-petrol;
+$primary-color: $pdx-colour-blue;
+$secondary-color: $pdx-colour-green;
+
+$ebi-colour-main: $pdx-colour-blue;
 $ebi-colour-services: $ebi-colour-dark-green;
 $ebi-colour-research: $ebi-colour-light-green;
 $ebi-colour-training: $ebi-colour-gold;
