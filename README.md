@@ -25,5 +25,5 @@ Once you generate your css assets, you'll need to put them somewhere to use them
 
 ## Roadmap
 
-- 0.1: You are here
-- 0.5: Do stuff
+- 0.1: Initial proof of concept
+- 0.2: Integrate final version of PDX conceptual design
