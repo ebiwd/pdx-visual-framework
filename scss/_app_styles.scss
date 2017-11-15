@@ -1,0 +1,114 @@
+@mixin app-styles() {
+  h1, h2, h3 { text-transform: uppercase; }
+  #skip-to {
+      top: -5000px;
+      position: absolute;
+  }
+
+  header.masthead {
+    background: $masthead-background;
+    color: $masthead-font-color;
+
+    a {
+      color: $masthead-font-color;
+      text-transform: uppercase;
+    }
+  }
+
+  footer {
+    background: $pdx-colour-dark-grey;
+    color: $white;
+  }
+
+
+  a.plus{
+    &:after {
+      content: " +";
+      font-weight: 300;
+      font-size: 1.85rem;
+      line-height: .5rem;
+      vertical-align: sub;
+    }
+  }
+
+
+  // external links
+  a.external{
+    &:after {
+      content: " x";
+      font-family: "EBI-Generic";
+      font-size: .65rem;
+      position: relative;
+      top: -1px;
+      margin-left: .4rem;
+    }
+  }
+
+  // read more
+  a.read-more,
+  a.readmore,
+  a.more {
+    white-space: nowrap;
+
+    &.down:after{
+      -ms-transform: rotate(80deg); /* IE 9 */
+      -webkit-transform: rotate(90deg); /* Safari */
+      transform: rotate(90deg);
+    }
+    &:after {
+      -ms-transform: rotate(0deg); /* IE 9 */
+      -webkit-transform: rotate(0deg); /* Safari */
+      transform: rotate(0deg);
+      content: ">";
+      font-family: "EBI-Functional";
+      font-size: .85em;
+      display: inline-block;
+      position: relative;
+      left: 5px;
+    }
+  }
+
+  // tabs
+  .tabs-title a {
+    text-transform: uppercase;
+    color: $pdx-colour-dark-grey;
+  }
+
+  .highlight {
+    &:after {
+      content: " ";
+      width: 3rem;
+      height: .4rem;
+      display: block;
+      background-color: $pdx-colour-blue;
+      margin: .1rem 0 1rem -.5rem;
+    }
+
+    &.green:after{
+      background-color: $pdx-colour-green;
+    }
+  }
+
+
+  .global-footer {
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+    color: $light-gray;
+
+    a, a:visited, a:hover, a:active {
+      color: $light-gray;
+    }
+
+
+    ul {
+      line-height: 1.9rem;
+    }
+
+    h3 {
+      font-size: 1.5rem;
+      color: $white;
+    }
+  }
+
+
+}

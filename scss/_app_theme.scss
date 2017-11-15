@@ -24,6 +24,8 @@ $ebi-colour-white: rgb(255,255,255);
 
 $pdx-colour-blue: rgb(61,113,203);
 $pdx-colour-green: rgb(94,168,143);
+$pdx-colour-dark-grey: rgb(47,46,59);
+$pdx-colour-light-grey: rgb(153,153,157);
 
 $primary-color: $pdx-colour-blue;
 $secondary-color: $pdx-colour-green;
@@ -39,17 +41,17 @@ $ebi-colour-elixir: $ebi-colour-orange;
 $success-color: #3adb76;
 $warning-color: #ffae00;
 $alert-color: #ec5840;
-$light-gray: #e6e6e6;
+$light-gray: $pdx-colour-light-grey;
 $medium-gray: $ebi-colour-medium-grey;
-$dark-gray: #8a8a8a;
+$dark-gray: $pdx-colour-dark-grey;
 $black: #0a0a0a;
 $white: #fefefe;
 
 $body-background: $ebi-colour-white;
 
 // masthead
-$masthead-background: $secondary-color;
-$masthead-font-color: $body-background;
+$masthead-background: $white;
+$masthead-font-color: $body-font-color;
 
 // typography
 $body-antialiased: true;
@@ -132,7 +134,7 @@ $block-grid-max: 8;
 // ------------------
 
 $header-font-family: $body-font-family;
-$header-font-weight: $global-weight-normal;
+$header-font-weight: $global-weight-bold;
 $header-font-style: normal;
 $font-family-monospace: $code-font-family;
 $header-sizes: (
@@ -173,7 +175,7 @@ $anchor-color-hover: scale-color($anchor-color, $lightness: -14%);
 $anchor-text-decoration: none;
 $anchor-text-decoration-hover: none;
 $hr-width: $global-width;
-$hr-border: 1px solid $medium-gray;
+$hr-border: 6px solid $pdx-colour-blue;
 $hr-margin: rem-calc(20) auto;
 $list-lineheight: $paragraph-lineheight;
 $list-margin-bottom: $paragraph-margin-bottom;
@@ -262,7 +264,7 @@ $breadcrumbs-item-slash: true;
 // 11. Button
 // ----------
 
-$button-padding: 0.85em 1em;
+$button-padding: 0.85em 3em;
 $button-margin: 0 0 $global-margin 0;
 $button-fill: solid;
 $button-background: $primary-color;
@@ -540,13 +542,13 @@ $show-header-for-stacked: false;
 
 $tab-margin: 0;
 $tab-background: $white;
-$tab-background-active: $light-gray;
-$tab-item-font-size: rem-calc(12);
-$tab-item-background-hover: $white;
-$tab-item-padding: 1.25rem 1.5rem;
+$tab-background-active: $white;
+$tab-item-font-size: rem-calc(18);
+$tab-item-background-hover: $light-gray;
+$tab-item-padding: 1.25rem 2.5rem;
 $tab-expand-max: 6;
 $tab-content-background: $white;
-$tab-content-border: $light-gray;
+$tab-content-border: $pdx-colour-green;
 $tab-content-color: foreground($tab-background, $ebi-colour-dark);
 $tab-content-padding: 1rem;
 

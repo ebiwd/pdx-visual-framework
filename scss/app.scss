@@ -4,6 +4,7 @@
 @import 'node_modules/foundation-sites/scss/util/util';
 @import 'node_modules/foundation-sites/scss/global';
 @import '_app_theme.scss';
+@import '_app_styles.scss';
 
 // EBI Visual framework sass imports
 @import 'node_modules/ebi-framework/css/ebi-css-build/badge'; // custom badge class
@@ -140,12 +141,12 @@
 @include ebi-foundation-overides;
 // ebi-styles
 @if $include-ebi-global-styles {
-  @include ebi-base-styles;
+  // @include ebi-base-styles;
   @include ebi-utility-styles;
-  @include ebi-masthead-styles;
-  @include ebi-footer-styles;
-  @include ebi-color-styles;
-  @include embl-selector;
+  // @include ebi-masthead-styles;
+  // @include ebi-footer-styles;
+  // @include ebi-color-styles;
+  // @include embl-selector;
 }
 @if $include-ebi-extra-styles {
   @include ebi-print-styles;
@@ -156,3 +157,5 @@
   @include ebi-tag;
   @include ebi-visibility;
 }
+
+@include app-styles;
