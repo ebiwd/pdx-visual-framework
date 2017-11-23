@@ -21,7 +21,8 @@ Edit the `.scss` files in `/scss`
 
 ### 4. Deploy
 
-Once you generate your css assets, you'll need to put them somewhere to use them.
+- Option 1, manual: Once you generate your css assets, you'll need to put them somewhere to use them.
+- Option 2, automatic: This repo is currently configured to use Travis CI. The sass will be automatically compiled and the CSS will be pushed to the gh-pages branch.
 
 ## Roadmap
 
