@@ -89,7 +89,6 @@
     }
   }
 
-
   .global-footer {
     padding-top: 5rem;
     padding-bottom: 3rem;
@@ -110,5 +109,52 @@
     }
   }
 
+  // Navigation Menu.
+  ul.main-menu.menu {
 
+    li {
+      font-size: $font-size-main-menu-items;
+      font-weight: $global-weight-bold;
+      padding: 0 15px;
+
+      &.active a,
+      a.active {
+        background: none;
+        color: $ebi-colour-dark;
+        border-bottom: 5px solid $pdx-colour-cyan;
+      }
+
+      a {
+        color: $pdx-colour-grey;
+        padding: 10px 0;
+      }
+    }
+  }
+
+  // Main Search.
+  form.main-search {
+    background: $pdx-colour-dark-white;
+    padding: 40px 30px;
+
+    input[type='text'],
+    input[type='submit'] {
+      height: 60px;
+    }
+
+    input[type='text'] {
+      box-shadow: none;
+      border: 2px solid $pdx-colour-gray-border;
+      border-right: none;
+    }
+
+    input[type='submit'] {
+      font-size: $font-size-large-icon;
+      padding: 0;
+      width: 60px;
+    }
+
+    #main-search-advanced-link {
+      font-size: $font-size-search-advanced-link;
+    }
+  }
 }

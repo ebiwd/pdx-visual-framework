@@ -62,8 +62,8 @@
           </div>
           <div class="columns medium-10" id="local-nav">
             <nav>
-              <ul id="local-nav" class="dropdown menu float-right" data-description="navigational">
-                <li><a href="#">Models</a></li>
+              <ul id="local-nav" class="dropdown menu main-menu float-right" data-description="navigational">
+                <li class="active"><a href="#">Models</a></li>
                 <li><a href="#">PDX Standard</a></li>
                 <li><a href="#">Contacts</a></li>
                 <li><a href="#">Join us</a></li>
@@ -162,6 +162,32 @@
 
           <hr/>
 
+          <!-- Search FORM -->
+          <form class="main-search">
+            <fieldset>
+              <div class="margin-bottom-none small-collapse">
+                <div class="columns small-2 margin-bottom-small padding-top-large">
+                  Enter your search here
+                </div>
+                <div class="columns small-8  margin-bottom-none search-text-wrapper">
+                  <input id="query" class="margin-bottom-none" title="EBI Search" tabindex="2" type="text" name="query" value="" size="35" maxlength="2048" placeholder="E.G. Breast cancer" required="">
+                  <span class="form-error margin-top-small">
+                      You need to enter a search query.
+                  </span>
+                </div>
+                <div class="columns small-2 margin-bottom-none ">
+                  <input id="search_submit" class="button icon icon-functional margin-bottom-none" tabindex="3" type="submit" name="submit1" value="1" style="line-height:.9">
+                </div>
+                <!-- <input id="allebi" type="hidden" name="db" value="allebi" checked="checked" /> -->
+                <input type="hidden" name="requestFrom" value="ebi_index">
+              </div>
+            </fieldset>
+            <fieldset>
+              <div class="medium-push-2 medium-10 small padding-top-medium">
+                <a href="" id="main-search-advanced-link" class="font-color-dark-gray font-style-underline ">Advanced Search</a>
+              </div>
+            </fieldset>
+          </form>
 
         </section>
       </div>

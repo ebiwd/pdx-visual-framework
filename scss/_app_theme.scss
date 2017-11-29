@@ -22,10 +22,15 @@ $ebi-colour-orange: rgb(251,106,42);
 $ebi-colour-blue: rgb(0,134,180);
 $ebi-colour-white: rgb(255,255,255);
 
+
 $pdx-colour-blue: rgb(61,113,203);
 $pdx-colour-green: rgb(94,168,143);
 $pdx-colour-dark-grey: rgb(47,46,59);
+$pdx-colour-grey: #58636b;
 $pdx-colour-light-grey: rgb(153,153,157);
+$pdx-colour-cyan: #51b0d1;
+$pdx-colour-dark-white: #e6e7e8;
+$pdx-colour-gray-border: #c1c1c1;
 
 $primary-color: $pdx-colour-blue;
 $secondary-color: $pdx-colour-green;
@@ -61,6 +66,9 @@ $body-font-family-serif: 'EB Garamond', 'georgia', serif;
 $code-font-family: 'Fira Code', Consolas, 'Liberation Mono', Courier, monospace;
 $table-font-family: $code-font-family;
 $table-font-size: 0.9rem;
+$font-size-main-menu-items: 1.2rem;
+$font-size-search-advanced-link: $font-size-main-menu-items;
+$font-size-large-icon: 1.7rem;
 
 // Set foundation colours
 $foundation-palette: (
