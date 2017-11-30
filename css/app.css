@@ -4817,10 +4817,10 @@ a.more {
 .highlight:after {
   content: " ";
   width: 3rem;
-  height: .4rem;
+  height: .2rem;
   display: block;
   background-color: #3d71cb;
-  margin: .1rem 0 1rem -.5rem; }
+  margin: .5rem 0 1rem -.5rem; }
 
 .highlight.green:after {
   background-color: #5ea88f; }
@@ -4866,3 +4866,37 @@ form.main-search {
     width: 60px; }
   form.main-search #main-search-advanced-link {
     font-size: 1.2rem; }
+
+table.pdx-table thead {
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid #5ea88f;
+  text-transform: uppercase; }
+
+table.pdx-table tbody {
+  color: #58636b; }
+  table.pdx-table tbody,
+  table.pdx-table tbody tr {
+    border: none; }
+  table.pdx-table tbody tr:first-child td {
+    padding-top: 30px; }
+
+ul.pagination.pdx-pagination li {
+  background: #58636b;
+  color: #fefefe;
+  float: left;
+  padding: 10px 15px;
+  margin-right: 5px; }
+  ul.pagination.pdx-pagination li.pagination-previous, ul.pagination.pdx-pagination li.pagination-next {
+    background: #73cfaf; }
+  ul.pagination.pdx-pagination li.current {
+    background: #3d71cb; }
+  ul.pagination.pdx-pagination li.disabled {
+    opacity: .5; }
+  ul.pagination.pdx-pagination li.ellipsis::after {
+    color: #fefefe; }
+  ul.pagination.pdx-pagination li a {
+    color: #fefefe;
+    padding: 0; }
+    ul.pagination.pdx-pagination li a:hover {
+      background: transparent; }
