@@ -4793,7 +4793,26 @@ a.more {
 
 .tabs-title a {
   text-transform: uppercase;
-  color: #2f2e3b; }
+  color: #58636b; }
+
+.tabs.style-2 {
+  border: none;
+  border-bottom: 1px solid #5ea88f;
+  font-weight: 700; }
+  .tabs.style-2 li.tabs-title {
+    background: #e6e7e8;
+    border: 1px solid #c1c1c1;
+    border-bottom: none;
+    margin-right: 10px; }
+    .tabs.style-2 li.tabs-title:first-child {
+      margin-left: 30px; }
+  .tabs.style-2 li.tabs-title.is-active {
+    border-color: #5ea88f;
+    border-bottom: 2px solid #fefefe;
+    margin-bottom: -2px; }
+
+.tabs-content.style-2 {
+  border: none; }
 
 .highlight:after {
   content: " ";

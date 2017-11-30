@@ -71,7 +71,34 @@
   // tabs
   .tabs-title a {
     text-transform: uppercase;
-    color: $pdx-colour-dark-grey;
+    color: $pdx-colour-grey;
+  }
+
+  .tabs.style-2 {
+    border: none;
+    border-bottom: 1px solid $pdx-colour-green;
+    font-weight: $global-weight-bold;
+
+    li.tabs-title {
+      background: $pdx-colour-dark-white;
+      border: 1px solid $pdx-colour-gray-border;
+      border-bottom: none;
+      margin-right: 10px;
+
+      &:first-child {
+        margin-left: 30px;
+      }
+    }
+
+    li.tabs-title.is-active {
+      border-color: $pdx-colour-green;
+      border-bottom: 2px solid $white;
+      margin-bottom: -2px;
+    }
+  }
+
+  .tabs-content.style-2 {
+    border: none;
   }
 
   .highlight {
