@@ -23,13 +23,13 @@ $ebi-colour-blue: rgb(0,134,180);
 $ebi-colour-white: rgb(255,255,255);
 
 
-$pdx-colour-blue: rgb(61,113,203);
+$pdx-colour-blue: #0071ce;
 $pdx-colour-green: rgb(94,168,143);
 $pdx-colour-light-green: #73cfaf;
 $pdx-colour-dark-grey: $ebi-colour-dark-grey;
 $pdx-colour-grey: #58636b;
 $pdx-colour-light-grey: rgb(153,153,157);
-$pdx-colour-cyan: #51b0d1;
+$pdx-colour-cyan: #00b2d5;
 $pdx-colour-dark-white: #e6e7e8;
 $pdx-colour-gray-border: #c1c1c1;
 
@@ -68,6 +68,8 @@ $code-font-family: 'Fira Code', Consolas, 'Liberation Mono', Courier, monospace;
 $table-font-family: $code-font-family;
 $table-font-size: 0.9rem;
 $font-size-main-menu-items: 1.2rem;
+$font-size-table-head: 1.3rem;
+$font-size-accordion-title: $font-size-table-head;
 $font-size-search-advanced-link: $font-size-main-menu-items;
 $font-size-large-icon: 1.7rem;
 
@@ -90,6 +92,12 @@ $tag-background: $primary-color;
 $tag-color: $label-background;
 $tag-font-size: 0.8rem;
 $tag-padding: 0.33333rem 0.5rem;
+
+// Radius
+$border-radius-base: 4px;
+$border-radius-large: 6px;
+$border-radius-small: 3px;
+
 
 /**
  * Includes code from Foundation for Sites by ZURB
@@ -608,3 +616,9 @@ $topbar-unstack-breakpoint: medium;
 // 37. Animations
 // -----------
 $use-animations: false;
+
+
+// 38. Choices
+// -----------
+$choices-border: #a8a8aa;
+$choices-single-height: 44px;
