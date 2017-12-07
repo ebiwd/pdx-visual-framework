@@ -68,6 +68,33 @@
     }
   }
 
+  a.button {
+
+
+    &.outline {
+      background: transparent;
+      border: 1px solid $primary-color;
+      color: $primary-color;
+    }
+
+    &.outline.secondary {
+      color: $pdx-colour-dark-grey;
+      border-color: $pdx-colour-dark-grey;
+
+      &:hover,
+      &:focus,
+      &:active {
+        background: transparent;
+        border-color: $primary-color;
+        color: $primary-color;
+      }
+    }
+
+    &.bold {
+      border-width: 2px;
+    }
+  }
+
   // tabs
   .tabs-title a {
     text-transform: uppercase;

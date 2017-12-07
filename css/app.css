@@ -4833,6 +4833,22 @@ a.more {
     position: relative;
     left: 5px; }
 
+a.button.outline {
+  background: transparent;
+  border: 1px solid #0071ce;
+  color: #0071ce; }
+
+a.button.outline.secondary {
+  color: #2f2e3b;
+  border-color: #2f2e3b; }
+  a.button.outline.secondary:hover, a.button.outline.secondary:focus, a.button.outline.secondary:active {
+    background: transparent;
+    border-color: #0071ce;
+    color: #0071ce; }
+
+a.button.bold {
+  border-width: 2px; }
+
 .tabs-title a {
   text-transform: uppercase;
   color: #58636b; }
