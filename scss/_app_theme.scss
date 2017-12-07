@@ -32,6 +32,7 @@ $pdx-colour-light-grey: rgb(153,153,157);
 $pdx-colour-cyan: #00b2d5;
 $pdx-colour-dark-white: #e6e7e8;
 $pdx-colour-gray-border: #c1c1c1;
+$pdx-colour-light: #f1f2f2;
 
 $primary-color: $pdx-colour-blue;
 $secondary-color: $pdx-colour-green;
@@ -404,6 +405,8 @@ $input-cursor-disabled: not-allowed;
 $input-transition: box-shadow 0.5s, border-color 0.25s ease-in-out;
 $input-number-spinners: true;
 $input-radius: $global-radius;
+$form-checkbox-dimension: 25px;
+$form-checkbox-icon-size: 14px;
 
 // 20. Label
 // ---------

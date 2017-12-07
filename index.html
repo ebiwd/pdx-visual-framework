@@ -185,15 +185,17 @@
             <fieldset>
               <div class="margin-bottom-none small-collapse">
                 <div class="columns small-2 margin-bottom-small padding-top-large">
+                </div>
+                <div class="columns small-2 margin-bottom-small padding-top-large">
                   Enter your search here
                 </div>
-                <div class="columns small-8  margin-bottom-none search-text-wrapper">
+                <div class="columns small-7  margin-bottom-none search-text-wrapper">
                   <input id="query" class="margin-bottom-none" title="EBI Search" tabindex="2" type="text" name="query" value="" size="35" maxlength="2048" placeholder="E.G. Breast cancer" required="">
                   <span class="form-error margin-top-small">
                       You need to enter a search query.
                   </span>
                 </div>
-                <div class="columns small-2 margin-bottom-none ">
+                <div class="columns small-1 margin-bottom-none ">
                   <input id="search_submit" class="button icon icon-functional margin-bottom-none" tabindex="3" type="submit" name="submit1" value="1" style="line-height:.9">
                 </div>
                 <!-- <input id="allebi" type="hidden" name="db" value="allebi" checked="checked" /> -->
@@ -201,7 +203,7 @@
               </div>
             </fieldset>
             <fieldset>
-              <div class="medium-push-2 medium-10 small padding-top-medium">
+              <div class="medium-push-4 medium-8 small padding-top-medium">
                 <a href="" id="main-search-advanced-link" class="font-color-dark-gray font-style-underline ">Advanced Search</a>
               </div>
             </fieldset>
@@ -298,6 +300,20 @@
                           <option value="color">Color</option>
                           <option value="metastatic">Metastatic</option>
                         </select>
+
+                        <div class="large-form">
+                          <div class="checkbox-item">
+                            <input id="box1" type="checkbox" /><label for="box1">Checkbox 1</label>
+                          </div>
+
+                          <div class="checkbox-item">
+                            <input id="box2" type="checkbox" /><label for="box2">Checkbox 2</label>
+                          </div>
+
+                          <div class="checkbox-item">
+                            <input id="box3" type="checkbox" /><label for="box3">Checkbox 3</label>
+                          </div>
+                        </div>
                       </div>
                     </li>
 
@@ -307,30 +323,35 @@
 
                       <!-- Accordion tab content: it would start in the open state due to using the `is-active` state class. -->
                       <div class="accordion-content" data-tab-content>
-                        <p>Panel 1. Lorem ipsum dolor</p>
-                        <a href="#">Nowhere to Go</a>
-                      </div>
-                    </li>
+                        <div class="large-form">
+                          <div class="checkbox-item">
+                            <input id="box4" type="checkbox" /><label for="box4">Checkbox 4</label>
+                          </div>
 
-                    <li class="accordion-item" data-accordion-item>
-                      <!-- Accordion tab title -->
-                      <a href="#" class="accordion-title">Title 4</a>
+                          <div class="checkbox-item">
+                            <input id="box5" type="checkbox" /><label for="box5">Checkbox 5</label>
+                          </div>
 
-                      <!-- Accordion tab content: it would start in the open state due to using the `is-active` state class. -->
-                      <div class="accordion-content" data-tab-content>
-                        <p>Panel 1. Lorem ipsum dolor</p>
-                        <a href="#">Nowhere to Go</a>
-                      </div>
-                    </li>
+                          <div class="checkbox-item">
+                            <input id="box6" type="checkbox" /><label for="box6">Checkbox 6</label>
+                          </div>
+                        </div>
 
-                    <li class="accordion-item" data-accordion-item>
-                      <!-- Accordion tab title -->
-                      <a href="#" class="accordion-title">Title 5</a>
+                        <select name="topic" required id="topic" class="form-control choices">
+                          <option value="color">Color</option>
+                          <option value="metastatic">Metastatic</option>
+                        </select>
 
-                      <!-- Accordion tab content: it would start in the open state due to using the `is-active` state class. -->
-                      <div class="accordion-content" data-tab-content>
-                        <p>Panel 1. Lorem ipsum dolor</p>
-                        <a href="#">Nowhere to Go</a>
+                        <div class="large-form">
+                          <div class="checkbox-item">
+                            <input id="box7" type="checkbox" /><label for="box7">Checkbox 7</label>
+                          </div>
+
+                          <div class="checkbox-item">
+                            <input id="box8" type="checkbox" /><label for="box8">Checkbox 8</label>
+                          </div>
+                         </div>
+
                       </div>
                     </li>
                   </ul>

@@ -169,7 +169,7 @@
 
   // Main Search.
   form.main-search {
-    background: $pdx-colour-dark-white;
+    background: url("../images/icon-find.png") no-repeat 5% center $pdx-colour-dark-white;
     padding: 40px 30px;
 
     input[type='text'],
@@ -311,6 +311,7 @@
 
   // Choices Styling.
   .choices {
+    margin: 0;
 
     .choices__inner {
       border: 2px solid $choices-border;

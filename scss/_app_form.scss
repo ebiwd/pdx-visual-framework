@@ -1,0 +1,55 @@
+
+/*** custom checkboxes for large form ***/
+.large-form {
+  .checkbox-item {
+    background: $pdx-colour-light;
+    padding: 10px;
+    border-bottom: 1px solid $white;
+
+    label {
+      margin: 0;
+      width: 100%;
+      opacity: .7;
+    }
+
+    input[type=checkbox]:checked + label {
+      opacity: 1;
+    }
+  }
+
+  input[type=checkbox] {
+    display:none;
+  }
+
+  input[type=checkbox] + label:before {
+    font-family: 'EBI-Functional';
+    display: inline-block;
+  }
+
+  input[type=checkbox] + label:before {
+    content: "";
+    background: $pdx-colour-grey;
+    border-radius: $border-radius-small;
+    color: $white;
+    text-align: right;
+    width: $form-checkbox-dimension;
+    height: $form-checkbox-dimension;
+    overflow: hidden;
+    float: left;
+    font-size: $form-checkbox-icon-size;
+    margin-right: 10px;
+  }
+
+  input[type=checkbox] + label:before {
+    letter-spacing: 10px;
+  }
+
+  input[type=checkbox]:checked + label:before {
+    content: "/";
+    background: $pdx-colour-blue;
+  }
+
+  input[type=checkbox]:checked + label:before {
+    letter-spacing: 5px;
+  }
+}

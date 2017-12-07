@@ -14,6 +14,48 @@
  * foundation.zurb.com
  * Licensed under MIT Open Source
  */
+/*** custom checkboxes for large form ***/
+.large-form .checkbox-item {
+  background: #f1f2f2;
+  padding: 10px;
+  border-bottom: 1px solid #fefefe; }
+  .large-form .checkbox-item label {
+    margin: 0;
+    width: 100%;
+    opacity: .7; }
+  .large-form .checkbox-item input[type=checkbox]:checked + label {
+    opacity: 1; }
+
+.large-form input[type=checkbox] {
+  display: none; }
+
+.large-form input[type=checkbox] + label:before {
+  font-family: 'EBI-Functional';
+  display: inline-block; }
+
+.large-form input[type=checkbox] + label:before {
+  content: "";
+  background: #58636b;
+  border-radius: 3px;
+  color: #fefefe;
+  text-align: right;
+  width: 25px;
+  height: 25px;
+  overflow: hidden;
+  float: left;
+  font-size: 14px;
+  margin-right: 10px; }
+
+.large-form input[type=checkbox] + label:before {
+  letter-spacing: 10px; }
+
+.large-form input[type=checkbox]:checked + label:before {
+  content: "/";
+  background: #0071ce; }
+
+.large-form input[type=checkbox]:checked + label:before {
+  letter-spacing: 5px; }
+
 .no-horz-padding {
   padding-left: 0;
   padding-right: 0; }
@@ -4857,7 +4899,7 @@ ul.main-menu.menu li {
     padding: 10px 0; }
 
 form.main-search {
-  background: #e6e7e8;
+  background: url("../images/icon-find.png") no-repeat 5% center #e6e7e8;
   padding: 40px 30px; }
   form.main-search input[type='text'],
   form.main-search input[type='submit'] {
@@ -4941,51 +4983,46 @@ ul.pdx-accordion-1 .accordion-content {
 ul.pdx-accordion-1 .is-active > .accordion-title::after {
   content: '\2013'; }
 
-.choices .choices__inner {
-  border: 2px solid #a8a8aa; }
-
-.choices[data-type='select-multiple'] .choices__item[aria-selected='true'] {
-  background: #e6e7e8;
-  border-color: #99999d;
-  border-radius: 3px; }
-  .choices[data-type='select-multiple'] .choices__item[aria-selected='true'],
-  .choices[data-type='select-multiple'] .choices__item[aria-selected='true'] button:before {
-    color: #58636b; }
-
-.choices[data-type='select-multiple'] .choices__input {
-  display: inline-block;
-  border: none;
-  box-shadow: none;
-  padding: 0;
-  width: 10%;
+.choices {
   margin: 0; }
-
-.choices[data-type*='select-one'] .choices__input {
-  box-shadow: none; }
-
-.choices[data-type*='select-one']:after {
-  background: #99999d;
-  border: none;
-  content: "8";
-  color: #fefefe;
-  font-family: 'EBI-Functional';
-  height: 99%;
-  width: 44px;
-  position: absolute;
-  pointer-events: none;
-  top: 0;
-  right: 0;
-  margin: 0;
-  text-align: center;
-  line-height: 44px; }
-
-.choices[data-type*='select-one'].is-open .choices__inner, .choices[data-type*='select-one'].is-focused .choices__inner {
-  border: 2px solid #0071ce; }
-
-.choices[data-type*='select-one'].is-open:after, .choices[data-type*='select-one'].is-focused:after {
-  background: #0071ce;
-  margin: 0; }
-
-.choices .choices__list--dropdown .choices__item--selectable.is-highlighted {
-  background: transparent;
-  opacity: .8; }
+  .choices .choices__inner {
+    border: 2px solid #a8a8aa; }
+  .choices[data-type='select-multiple'] .choices__item[aria-selected='true'] {
+    background: #e6e7e8;
+    border-color: #99999d;
+    border-radius: 3px; }
+    .choices[data-type='select-multiple'] .choices__item[aria-selected='true'],
+    .choices[data-type='select-multiple'] .choices__item[aria-selected='true'] button:before {
+      color: #58636b; }
+  .choices[data-type='select-multiple'] .choices__input {
+    display: inline-block;
+    border: none;
+    box-shadow: none;
+    padding: 0;
+    width: 10%;
+    margin: 0; }
+  .choices[data-type*='select-one'] .choices__input {
+    box-shadow: none; }
+  .choices[data-type*='select-one']:after {
+    background: #99999d;
+    border: none;
+    content: "8";
+    color: #fefefe;
+    font-family: 'EBI-Functional';
+    height: 99%;
+    width: 44px;
+    position: absolute;
+    pointer-events: none;
+    top: 0;
+    right: 0;
+    margin: 0;
+    text-align: center;
+    line-height: 44px; }
+  .choices[data-type*='select-one'].is-open .choices__inner, .choices[data-type*='select-one'].is-focused .choices__inner {
+    border: 2px solid #0071ce; }
+  .choices[data-type*='select-one'].is-open:after, .choices[data-type*='select-one'].is-focused:after {
+    background: #0071ce;
+    margin: 0; }
+  .choices .choices__list--dropdown .choices__item--selectable.is-highlighted {
+    background: transparent;
+    opacity: .8; }
