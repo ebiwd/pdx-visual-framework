@@ -502,6 +502,24 @@
     }
   }
 
+  // Counter Link
+  .counter-link-item {
+    margin-bottom: 10px;
+
+    .item-number {
+      display: inline-block;
+      font-weight: $global-weight-extra-bold;
+      min-width: 35px;
+      padding-right: 10px;
+      margin-right: 10px;
+      border-right: 2px solid $pdx-colour-light-green;
+    }
+
+    .item-link {
+      text-decoration: underline;
+    }
+  }
+
   // Feed Grid.
   .feed-grid {
     padding: 15px;

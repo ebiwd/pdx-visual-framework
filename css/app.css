@@ -5140,6 +5140,18 @@ ul.pdx-accordion-1 .is-active > .accordion-title::after {
     .list-style-news .list-item:hover .list-item-title {
       color: #0071ce; }
 
+.counter-link-item {
+  margin-bottom: 10px; }
+  .counter-link-item .item-number {
+    display: inline-block;
+    font-weight: 900;
+    min-width: 35px;
+    padding-right: 10px;
+    margin-right: 10px;
+    border-right: 2px solid #73cfaf; }
+  .counter-link-item .item-link {
+    text-decoration: underline; }
+
 .feed-grid {
   padding: 15px;
   position: relative; }
