@@ -265,6 +265,12 @@ $badge-background: $primary-color;
 $badge-color: foreground($badge-background);
 $badge-padding: 0.3em;
 $badge-minwidth: 2.1em;
+$badge-dimension-sm: 20px;
+$badge-dimension-md: 25px;
+$badge-dimension-lg: 30px;
+
+
+
 // $badge-font-size: 0.6rem; // Depreciated
 
 // 10. Breadcrumbs

@@ -56,12 +56,12 @@
   </header> -->
   <div id="content">
     <div data-sticky-container>
-      <header id="masthead" class="masthead" data-sticky data-sticky-on="large" data-top-anchor="content:top" data-btm-anchor="content:bottom" data-margin-top="0">
+      <header id="masthead" class="masthead screen-lg" data-sticky data-sticky-on="large" data-top-anchor="content:top" data-btm-anchor="content:bottom" data-margin-top="0">
         <div class="masthead-inner row">
-          <div class="columns medium-2" id="local-title">
-            <h1><a href="../../" title="Back to [service-name] homepage">[LOGO]</a></h1>
+          <div class="columns medium-2 log-column" id="local-title">
+            <h1><a href="#" title="Back to [service-name] homepage"><img src="images/logo.png" class="padding-15"/></a></h1>
           </div>
-          <div class="columns medium-10" id="local-nav">
+          <div class="columns medium-10 menu-column padding-vertical-30" id="local-nav">
             <nav>
               <ul id="local-nav" class="dropdown menu main-menu float-right" data-description="navigational">
                 <li class="active"><a href="#">Models</a></li>
@@ -151,18 +151,6 @@
           </div>
 
           <hr/>
-
-          <ul class="pagination" role="navigation" aria-label="Pagination">
-            <li class="pagination-previous disabled">Previous <span class="show-for-sr">page</span></li>
-            <li class="current"><span class="show-for-sr">You're on page</span> 1</li>
-            <li><a href="#" aria-label="Page 2">2</a></li>
-            <li><a href="#" aria-label="Page 3">3</a></li>
-            <li><a href="#" aria-label="Page 4">4</a></li>
-            <li class="ellipsis" aria-hidden="true"></li>
-            <li><a href="#" aria-label="Page 12">12</a></li>
-            <li><a href="#" aria-label="Page 13">13</a></li>
-            <li class="pagination-next"><a href="#" aria-label="Next page">Next <span class="show-for-sr">page</span></a></li>
-          </ul>
 
           <ul class="vertical menu accordion-menu" data-accordion-menu >
             <li>
@@ -276,91 +264,106 @@
           </ul>
 
           <hr>
-            <div class="row">
-              <div class="columns large-3">
-                <h4 class="block-title clearfix"><span class="float-left">Filter By:</span></h4>
+          <!-- Filter Map -->
+          <div class="row">
+            <div class="columns large-3">
+              <h4 class="block-title clearfix"><span class="float-left">Filter By:</span></h4>
 
-                  <ul class="accordion pdx-accordion-1" data-accordion data-multi-expand="true">
-                    <li class="accordion-item is-active" data-accordion-item>
-                      <!-- Accordion tab title -->
-                      <a href="#" class="accordion-title">Title 1</a>
+                <ul class="accordion pdx-accordion-1" data-accordion data-multi-expand="true">
+                  <li class="accordion-item is-active" data-accordion-item>
+                    <!-- Accordion tab title -->
+                    <a href="#" class="accordion-title">Title 1</a>
 
-                      <!-- Accordion tab content: it would start in the open state due to using the `is-active` state class. -->
-                      <div class="accordion-content" data-tab-content>
-                        <select name="topic" required id="topic" class="form-control choices" multiple>
-                          <option value="color">Color</option>
-                          <option value="metastatic">Metastatic</option>
-                        </select>
-                      </div>
-                    </li>
+                    <!-- Accordion tab content: it would start in the open state due to using the `is-active` state class. -->
+                    <div class="accordion-content" data-tab-content>
+                      <select name="topic" required id="topic" class="form-control choices" multiple>
+                        <option value="color">Color</option>
+                        <option value="metastatic">Metastatic</option>
+                      </select>
+                    </div>
+                  </li>
 
-                    <li class="accordion-item" data-accordion-item>
-                      <!-- Accordion tab title -->
-                      <a href="#" class="accordion-title">Title 2</a>
+                  <li class="accordion-item" data-accordion-item>
+                    <!-- Accordion tab title -->
+                    <a href="#" class="accordion-title">Title 2</a>
 
-                      <!-- Accordion tab content: it would start in the open state due to using the `is-active` state class. -->
-                      <div class="accordion-content" data-tab-content>
-                        <select name="topic" required id="topic" class="form-control choices">
-                          <option value="color">Color</option>
-                          <option value="metastatic">Metastatic</option>
-                        </select>
+                    <!-- Accordion tab content: it would start in the open state due to using the `is-active` state class. -->
+                    <div class="accordion-content" data-tab-content>
+                      <select name="topic" required id="topic" class="form-control choices">
+                        <option value="color">Color</option>
+                        <option value="metastatic">Metastatic</option>
+                      </select>
 
-                        <div class="large-form">
-                          <div class="checkbox-item">
-                            <input id="box1" type="checkbox" /><label for="box1">Checkbox 1</label>
-                          </div>
-
-                          <div class="checkbox-item">
-                            <input id="box2" type="checkbox" /><label for="box2">Checkbox 2</label>
-                          </div>
-
-                          <div class="checkbox-item">
-                            <input id="box3" type="checkbox" /><label for="box3">Checkbox 3</label>
-                          </div>
-                        </div>
-                      </div>
-                    </li>
-
-                    <li class="accordion-item" data-accordion-item>
-                      <!-- Accordion tab title -->
-                      <a href="#" class="accordion-title">Title 3</a>
-
-                      <!-- Accordion tab content: it would start in the open state due to using the `is-active` state class. -->
-                      <div class="accordion-content" data-tab-content>
-                        <div class="large-form">
-                          <div class="checkbox-item">
-                            <input id="box4" type="checkbox" /><label for="box4">Checkbox 4</label>
-                          </div>
-
-                          <div class="checkbox-item">
-                            <input id="box5" type="checkbox" /><label for="box5">Checkbox 5</label>
-                          </div>
-
-                          <div class="checkbox-item">
-                            <input id="box6" type="checkbox" /><label for="box6">Checkbox 6</label>
-                          </div>
+                      <div class="large-form">
+                        <div class="checkbox-item">
+                          <input id="box1" type="checkbox" /><label for="box1">Checkbox 1</label>
                         </div>
 
-                        <select name="topic" required id="topic" class="form-control choices">
-                          <option value="color">Color</option>
-                          <option value="metastatic">Metastatic</option>
-                        </select>
+                        <div class="checkbox-item">
+                          <input id="box2" type="checkbox" /><label for="box2">Checkbox 2</label>
+                        </div>
 
-                        <div class="large-form">
-                          <div class="checkbox-item">
-                            <input id="box7" type="checkbox" /><label for="box7">Checkbox 7</label>
-                          </div>
-
-                          <div class="checkbox-item">
-                            <input id="box8" type="checkbox" /><label for="box8">Checkbox 8</label>
-                          </div>
-                         </div>
-
+                        <div class="checkbox-item">
+                          <input id="box3" type="checkbox" /><label for="box3">Checkbox 3</label>
+                        </div>
                       </div>
-                    </li>
-                  </ul>
-              </div>
+                    </div>
+                  </li>
+
+                  <li class="accordion-item" data-accordion-item>
+                    <!-- Accordion tab title -->
+                    <a href="#" class="accordion-title">Title 3</a>
+
+                    <!-- Accordion tab content: it would start in the open state due to using the `is-active` state class. -->
+                    <div class="accordion-content" data-tab-content>
+                      <div class="large-form">
+                        <div class="checkbox-item">
+                          <input id="box4" type="checkbox" /><label for="box4">Checkbox 4</label>
+                        </div>
+
+                        <div class="checkbox-item">
+                          <input id="box5" type="checkbox" /><label for="box5">Checkbox 5</label>
+                        </div>
+
+                        <div class="checkbox-item">
+                          <input id="box6" type="checkbox" /><label for="box6">Checkbox 6</label>
+                        </div>
+                      </div>
+
+                      <select name="topic" required id="topic" class="form-control choices">
+                        <option value="color">Color</option>
+                        <option value="metastatic">Metastatic</option>
+                      </select>
+
+                      <div class="large-form">
+                        <div class="checkbox-item">
+                          <input id="box7" type="checkbox" /><label for="box7">Checkbox 7</label>
+                        </div>
+
+                        <div class="checkbox-item">
+                          <input id="box8" type="checkbox" /><label for="box8">Checkbox 8</label>
+                        </div>
+                       </div>
+
+                    </div>
+                  </li>
+                </ul>
             </div>
+          </div>
+          <!-- End if Filter By -->
+
+          <hr>
+
+          <!-- List Example -->
+          <h4 class="block-title clearfix"><span class="float-left border-color-black">List Title</span></h4>
+          <ul class="cols-2 margin-top-large">
+            <li>Overian: High grade serious</li>
+            <li>Caucasion</li>
+            <li>Tumbour: Primary</li>
+            <li>Therapy: No</li>
+            <li>Grade: IV</li>
+            <li>Female: 65</li>
+          </ul>
 
 
         </section>

@@ -56,6 +56,16 @@
 .large-form input[type=checkbox]:checked + label:before {
   letter-spacing: 5px; }
 
+.padding-15 {
+  padding: 15px; }
+
+.padding-vertical-30 {
+  padding-top: 30px;
+  padding-bottom: 30px; }
+
+.border-color-black {
+  border-color: #0a0a0a; }
+
 .no-horz-padding {
   padding-left: 0;
   padding-right: 0; }
@@ -4806,6 +4816,22 @@ a.external:after {
   top: -1px;
   margin-left: .4rem; }
 
+.badge {
+  color: #fefefe;
+  padding: 0;
+  height: 25px;
+  width: 25px;
+  line-height: 25px;
+  min-width: auto; }
+  .badge.small {
+    height: 20px;
+    width: 20px;
+    line-height: 20px; }
+  .badge.large {
+    height: 30px;
+    width: 30px;
+    line-height: 30px; }
+
 a.read-more,
 a.readmore,
 a.more {
@@ -4901,6 +4927,16 @@ a.button.bold {
     font-size: 1.5rem;
     color: #fefefe; }
 
+ul {
+  color: #58636b; }
+  ul.cols-2 {
+    float: left;
+    width: 100%;
+    clear: both; }
+    ul.cols-2 li {
+      float: left;
+      width: 50%; }
+
 ul.main-menu.menu li {
   font-size: 1.2rem;
   font-weight: 700;
@@ -4971,6 +5007,8 @@ ul.pagination.pdx-pagination li {
   border-bottom: 5px solid #00b2d5;
   text-transform: uppercase;
   padding: 10px 0; }
+  .block-title span.border-color-black {
+    border-color: #0a0a0a; }
 
 ul.pdx-accordion-1 a.accordion-title,
 ul.pdx-accordion-1 div.accordion-content,
