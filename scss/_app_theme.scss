@@ -29,6 +29,7 @@ $pdx-colour-light-green: #73cfaf;
 $pdx-colour-dark-grey: $ebi-colour-dark-grey;
 $pdx-colour-grey: #58636b;
 $pdx-colour-light-grey: rgb(153,153,157);
+$pdx-color-overlay-gray: rgba(125, 124, 124, 0.6);
 $pdx-colour-cyan: #00b2d5;
 $pdx-colour-dark-white: #e6e7e8;
 $pdx-colour-gray-border: #c1c1c1;
@@ -59,6 +60,11 @@ $body-background: $ebi-colour-white;
 // masthead
 $masthead-background: $white;
 $masthead-font-color: $body-font-color;
+
+// Social Media.
+$twitter: #55acee;
+$facebook: #3b5999;
+$instagram: #e4405f;
 
 // typography
 $body-antialiased: true;
@@ -631,3 +637,7 @@ $use-animations: false;
 // -----------
 $choices-border: #a8a8aa;
 $choices-single-height: 44px;
+
+// 39. Component News
+// -----------
+$pdx-news-list-link-dimension: 35px;

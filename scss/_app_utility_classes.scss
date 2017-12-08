@@ -20,6 +20,38 @@
   color: $pdx-colour-dark-grey;
 }
 
+.font-color-blue {
+  color: $pdx-colour-blue;
+}
+
+.font-color-white {
+  color: $white;
+}
+
 .font-style-underline {
   text-decoration: underline;
+}
+
+.background-color-dark-white {
+  background-color: $pdx-colour-dark-white;
+}
+
+.background-color-twitter {
+  background-color: $twitter;
+}
+
+.background-color-facebook {
+  background-color: $facebook;
+}
+
+.background-color-instagram {
+  background-color: $instagram;
+}
+
+.min-height-300 {
+  min-height: 300px;
+}
+
+.min-height-400 {
+  min-height: 400px;
 }
