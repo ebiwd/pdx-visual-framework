@@ -12,6 +12,16 @@
     a {
       color: $masthead-font-color;
       text-transform: uppercase;
+
+      &.menu-toggle {
+        color: $pdx-colour-cyan;
+        cursor: pointer;
+        font-size: $menu-toggle-icon;
+
+        &:hover {
+          color: $primary-color;
+        }
+      }
     }
   }
 
@@ -258,9 +268,19 @@
     #main-search-advanced-link {
       font-size: $font-size-search-advanced-link;
     }
+
+    @media #{$small-only} {
+      background: url("../images/icon-find-mobile.png") no-repeat 5% center $pdx-colour-dark-white;
+      background-size: 25%;
+      padding: 10px 25px;
+    }
   }
 
   // Table Styling
+  .responsive-table {
+    overflow: auto;
+  }
+
   table.pdx-table {
 
     thead {
@@ -284,6 +304,73 @@
 
       tr:first-child td {
         padding-top: 30px;
+      }
+    }
+  }
+
+  // Expand Menu
+  div.expand-menu {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: 10;
+    left: 100%;
+    position: fixed;
+    transition: all .5s ease;
+
+    &.open {
+      left: 0;
+    }
+
+    .close-wrapper {
+      background: $pdx-color-overlay-white;
+
+      a {
+        color: $pdx-colour-cyan;
+        font-size: $menu-toggle-icon;
+      }
+    }
+  }
+
+  ul.pdx-mobile-menu {
+    margin-top: 30px;
+
+    li,
+    a {
+      background: transparent;
+      color: $white;
+      font-size: $font-size-mobile-menu-list;
+      font-weight: $global-weight-bold;
+
+      ul.submenu {
+        margin: 0 15px;
+      }
+    }
+
+    li:hover > a {
+      opacity: .7;
+    }
+
+
+    .is-accordion-submenu-parent {
+      &[aria-expanded='false'] > a:after,
+      &[aria-expanded='true'] > a:after {
+        content: '>' !important;
+        font-family: 'EBI-Functional';
+        font-size: $font-size-mobile-menu-expand-icon;
+        border: none;
+        -webkit-transform: rotated(90deg);
+        transform: rotate(90deg);
+        top: 15px;
+        right: 1rem;
+        margin: 0;
+        width: auto;
+        height: auto;
+      }
+
+      &[aria-expanded='true'] > a:after {
+        -webkit-transform: rotate(-90deg);
+        transform: rotate(-90deg);
       }
     }
   }

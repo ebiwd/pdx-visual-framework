@@ -30,6 +30,7 @@ $pdx-colour-dark-grey: $ebi-colour-dark-grey;
 $pdx-colour-grey: #58636b;
 $pdx-colour-light-grey: rgb(153,153,157);
 $pdx-color-overlay-gray: rgba(125, 124, 124, 0.6);
+$pdx-color-overlay-white: rgba(255, 255, 255, 0.8);
 $pdx-colour-cyan: #00b2d5;
 $pdx-colour-dark-white: #e6e7e8;
 $pdx-colour-gray-border: #c1c1c1;
@@ -79,6 +80,8 @@ $font-size-table-head: 1.3rem;
 $font-size-accordion-title: $font-size-table-head;
 $font-size-search-advanced-link: $font-size-main-menu-items;
 $font-size-large-icon: 1.7rem;
+$font-size-mobile-menu-list: 1.5rem;
+$font-size-mobile-menu-expand-icon: $font-size-table-head;
 
 // Set foundation colours
 $foundation-palette: (
@@ -446,6 +449,7 @@ $menu-item-padding: 0.7rem 1rem;
 $menu-item-color-active: $white;
 $menu-item-background-active: map-get($foundation-palette, primary);
 $menu-icon-spacing: 0.25rem;
+$menu-toggle-icon: 2.2rem;
 
 // 23. Meter
 // ---------
