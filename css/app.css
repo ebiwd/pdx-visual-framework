@@ -4985,13 +4985,33 @@ ul.main-menu.menu li {
   font-weight: 700;
   padding: 0 15px; }
   ul.main-menu.menu li.active a,
-  ul.main-menu.menu li a.active {
+  ul.main-menu.menu li a.active,
+  ul.main-menu.menu li:hover > a {
     background: none;
     color: #000;
     border-bottom: 5px solid #00b2d5; }
   ul.main-menu.menu li a {
     color: #58636b;
-    padding: 10px 0; }
+    padding: 10px 0;
+    border-bottom: 5px solid transparent; }
+
+ul.main-menu.menu.dropdown.menu > li.is-dropdown-submenu-parent > a::after {
+  border-color: #00b2d5 transparent transparent; }
+
+.dropdown.menu > li.opens-right > .is-dropdown-submenu {
+  padding: 15px 5px;
+  border: none;
+  background: #e6e7e8;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 150%;
+  min-width: auto;
+  width: 130%;
+  border-radius: 0 0 10px 10px; }
+  .dropdown.menu > li.opens-right > .is-dropdown-submenu li {
+    font-size: 1rem;
+    margin-bottom: 10px; }
 
 form.main-search {
   background: url("../images/icon-find.png") no-repeat 5% center #e6e7e8;

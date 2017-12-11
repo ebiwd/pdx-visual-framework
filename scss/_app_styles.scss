@@ -230,7 +230,8 @@
       padding: 0 15px;
 
       &.active a,
-      a.active {
+      a.active,
+      &:hover > a {
         background: none;
         color: $ebi-colour-dark;
         border-bottom: 5px solid $pdx-colour-cyan;
@@ -239,7 +240,31 @@
       a {
         color: $pdx-colour-grey;
         padding: 10px 0;
+        border-bottom: 5px solid transparent;
       }
+    }
+
+    &.dropdown.menu > li.is-dropdown-submenu-parent > a::after {
+      border-color: $pdx-colour-cyan transparent transparent;
+    }
+  }
+
+  // Dropdown Menu.
+  .dropdown.menu > li.opens-right > .is-dropdown-submenu {
+    padding: 15px 5px;
+    border: none;
+    background: #e6e7e8;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 150%;
+    min-width: auto;
+    width: 130%;
+    border-radius: 0 0 10px 10px;
+
+    li {
+      font-size: $dropdown-font-size;
+      margin-bottom: 10px;
     }
   }
 
