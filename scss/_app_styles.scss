@@ -33,6 +33,30 @@
     }
   }
 
+  // Header Image
+  div.header-image-wrapper {
+    background: url('../images/header.png') no-repeat 50% 50%;
+    background-size: 100% auto;
+    padding: 30px;
+
+    .header-image-text {
+      background: $pdx-header-image-text-background;
+      color: $white;
+      text-transform: uppercase;
+      padding: 25px 15px;
+      font-weight: $global-weight-bold;
+      font-size: $pdx-header-image-text-size-lg;
+    }
+
+    @media #{$small-only} {
+      background-size: auto 100%;
+
+      .header-image-text {
+        font-size: $pdx-header-image-text-size-sm;
+      }
+    }
+  }
+
   footer {
     background: $pdx-colour-dark-grey;
     color: $white;

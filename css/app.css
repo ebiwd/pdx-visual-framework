@@ -4861,6 +4861,23 @@ header.masthead {
       header.masthead a.menu-toggle:hover {
         color: #0071ce; }
 
+div.header-image-wrapper {
+  background: url("../images/header.png") no-repeat 50% 50%;
+  background-size: 100% auto;
+  padding: 30px; }
+  div.header-image-wrapper .header-image-text {
+    background: rgba(0, 113, 206, 0.7);
+    color: #fefefe;
+    text-transform: uppercase;
+    padding: 25px 15px;
+    font-weight: 700;
+    font-size: 1.7rem; }
+  @media screen and (max-width: 39.9375em) {
+    div.header-image-wrapper {
+      background-size: auto 100%; }
+      div.header-image-wrapper .header-image-text {
+        font-size: 1.2rem; } }
+
 footer {
   background: #2f2e3b;
   color: #fefefe; }
@@ -5037,7 +5054,7 @@ ul.main-menu.menu.dropdown.menu > li.is-dropdown-submenu-parent > a::after {
   min-width: auto;
   width: 130%;
   border-radius: 0 0 10px 10px;
-  box-shadow: 0px 6px 20px #dadada; }
+  box-shadow: 0px 6px 20px #333; }
   .dropdown.menu > li.opens-right > ul.is-dropdown-submenu li {
     font-size: 1rem;
     margin-bottom: 10px; }

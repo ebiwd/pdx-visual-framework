@@ -61,7 +61,7 @@ $body-background: $ebi-colour-white;
 // masthead
 $masthead-background: $white;
 $masthead-font-color: $body-font-color;
-$masthead-dropdown-shadow: 0px 6px 20px #dadada;
+$masthead-dropdown-shadow: 0px 6px 20px #333;
 
 // Social Media.
 $twitter: #55acee;
@@ -647,3 +647,11 @@ $choices-single-height: 44px;
 // 39. Component News
 // -----------
 $pdx-news-list-link-dimension: 35px;
+
+// 40. Header Image Component
+// -----------
+$pdx-header-image-text-background: rgba(0, 113, 206, 0.7);
+$pdx-header-image-text-size-sm: 1.2rem;
+$pdx-header-image-text-size-lg: 1.7rem;
+
+
