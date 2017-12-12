@@ -8,6 +8,8 @@
   header.masthead {
     background: $masthead-background;
     color: $masthead-font-color;
+    position: relative;
+    z-index: 2;
 
     a {
       color: $masthead-font-color;
@@ -132,6 +134,10 @@
   .tabs-title a {
     text-transform: uppercase;
     color: $pdx-colour-grey;
+
+    @media #{$small-only} {
+      padding: 1rem;
+    }
   }
 
   .tabs-title > a:focus,
@@ -150,7 +156,7 @@
       margin-right: 10px;
 
       &:first-child {
-        margin-left: 30px;
+        margin-left: 5%;
       }
 
       &:not(.is-active) {
@@ -250,7 +256,7 @@
   }
 
   // Dropdown Menu.
-  .dropdown.menu > li.opens-right > .is-dropdown-submenu {
+  .dropdown.menu > li.opens-right > ul.is-dropdown-submenu {
     padding: 15px 5px;
     border: none;
     background: #e6e7e8;
@@ -261,6 +267,7 @@
     min-width: auto;
     width: 130%;
     border-radius: 0 0 10px 10px;
+    box-shadow: $masthead-dropdown-shadow;
 
     li {
       font-size: $dropdown-font-size;
@@ -271,7 +278,7 @@
   // Main Search.
   form.main-search {
     background: url("../images/icon-find.png") no-repeat 5% center $pdx-colour-dark-white;
-    padding: 40px 30px;
+    padding: 50px 0 20px 0;
 
     input[type='text'],
     input[type='submit'] {
@@ -438,11 +445,17 @@
     }
   }
 
-  //  Block Title.
+  // Breadcrumbs
+  .breadcrumbs li {
+    background: $white;
+    padding: 5px 10px;
+  }
+
+  // Block Title.
   .block-title span {
     border-bottom: 5px solid $pdx-colour-cyan;
     text-transform: uppercase;
-    padding: 10px 0;
+    padding-bottom: 10px;
 
     &.border-color-black {
       border-color: $black;
