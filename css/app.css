@@ -4838,6 +4838,10 @@ h1, h2, h3 {
   top: -5000px;
   position: absolute; }
 
+@media screen and (max-width: 39.9375em) {
+  #main-content-area {
+    overflow-x: hidden; } }
+
 header.masthead {
   background: #fefefe;
   color: #222;
@@ -5055,7 +5059,7 @@ form.main-search {
       padding: 10px 25px; }
       form.main-search > .row {
         background: url("../images/icon-find-mobile.png") no-repeat 0 center;
-        background-size: auto 50%; } }
+        background-size: auto 60px; } }
 
 .responsive-table {
   overflow: auto; }

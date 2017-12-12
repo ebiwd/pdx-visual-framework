@@ -5,6 +5,12 @@
       position: absolute;
   }
 
+  #main-content-area {
+    @media #{$small-only} {
+      overflow-x: hidden;
+    }
+  }
+
   header.masthead {
     background: $masthead-background;
     color: $masthead-font-color;
@@ -312,7 +318,7 @@
 
       > .row {
         background: url("../images/icon-find-mobile.png") no-repeat 0 center;
-        background-size: auto 50%;
+        background-size: auto 60px;
       }
     }
   }
