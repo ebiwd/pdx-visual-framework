@@ -5031,8 +5031,11 @@ ul.main-menu.menu.dropdown.menu > li.is-dropdown-submenu-parent > a::after {
     margin-bottom: 10px; }
 
 form.main-search {
-  background: url("../images/icon-find.png") no-repeat 5% center #e6e7e8;
+  background-color: #e6e7e8;
   padding: 50px 0 20px 0; }
+  form.main-search > .row {
+    background: url("../images/icon-find.png") no-repeat 5% center;
+    background-size: auto 100%; }
   form.main-search input[type='text'],
   form.main-search input[type='submit'] {
     height: 60px; }
@@ -5048,9 +5051,11 @@ form.main-search {
     font-size: 1.2rem; }
   @media screen and (max-width: 39.9375em) {
     form.main-search {
-      background: url("../images/icon-find-mobile.png") no-repeat 5% center #e6e7e8;
       background-size: 25%;
-      padding: 10px 25px; } }
+      padding: 10px 25px; }
+      form.main-search > .row {
+        background: url("../images/icon-find-mobile.png") no-repeat 0 center;
+        background-size: auto 50%; } }
 
 .responsive-table {
   overflow: auto; }

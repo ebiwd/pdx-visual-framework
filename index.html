@@ -207,35 +207,37 @@
 
             <!-- Search FORM -->
             <form class="main-search">
-              <fieldset>
-                <div class="margin-bottom-none small-collapse">
-                  <!-- Large screen -->
-                  <div class="columns small-2 small-push-2 margin-bottom-small padding-top-large hide-for-small-only">
-                    Enter your search here
-                  </div>
-                  <!-- Small screen-->
-                  <div class="columns small-7 medium-push-2 small-push-3  margin-bottom-none search-text-wrapper show-for-small-only">
-                    Enter your search here
-                  </div>
+              <div class="row">
+                <fieldset>
+                  <div class="margin-bottom-none small-collapse">
+                    <!-- Large screen -->
+                    <div class="columns small-2 small-push-2 margin-bottom-small padding-top-large hide-for-small-only">
+                      Enter your search here
+                    </div>
+                    <!-- Small screen-->
+                    <div class="columns small-7 medium-push-2 small-push-3  margin-bottom-none search-text-wrapper show-for-small-only">
+                      Enter your search here
+                    </div>
 
-                  <div class="columns small-7 medium-push-2 small-push-3  margin-bottom-none search-text-wrapper">
-                    <input id="query" class="margin-bottom-none" title="EBI Search" tabindex="2" type="text" name="query" value="" size="35" maxlength="2048" placeholder="E.G. Breast cancer" required="">
-                    <span class="form-error margin-top-small">
-                        You need to enter a search query.
-                    </span>
+                    <div class="columns small-7 medium-push-2 small-push-3  margin-bottom-none search-text-wrapper">
+                      <input id="query" class="margin-bottom-none" title="EBI Search" tabindex="2" type="text" name="query" value="" size="35" maxlength="2048" placeholder="E.G. Breast cancer" required="">
+                      <span class="form-error margin-top-small">
+                          You need to enter a search query.
+                      </span>
+                    </div>
+                    <div class="columns small-1 medium-push-2 small-push-3 margin-bottom-none ">
+                      <input id="search_submit" class="button icon icon-functional margin-bottom-none" tabindex="3" type="submit" name="submit1" value="1" style="line-height:.9">
+                    </div>
+                    <!-- <input id="allebi" type="hidden" name="db" value="allebi" checked="checked" /> -->
+                    <input type="hidden" name="requestFrom" value="ebi_index">
                   </div>
-                  <div class="columns small-1 medium-push-2 small-push-3 margin-bottom-none ">
-                    <input id="search_submit" class="button icon icon-functional margin-bottom-none" tabindex="3" type="submit" name="submit1" value="1" style="line-height:.9">
+                </fieldset>
+                <fieldset>
+                  <div class="medium-push-4 small-push-3 small-8 small padding-top-medium">
+                    <a href="" id="main-search-advanced-link" class="font-color-dark-gray font-style-underline ">Advanced Search</a>
                   </div>
-                  <!-- <input id="allebi" type="hidden" name="db" value="allebi" checked="checked" /> -->
-                  <input type="hidden" name="requestFrom" value="ebi_index">
-                </div>
-              </fieldset>
-              <fieldset>
-                <div class="medium-push-4 small-push-3 small-8 small padding-top-medium">
-                  <a href="" id="main-search-advanced-link" class="font-color-dark-gray font-style-underline ">Advanced Search</a>
-                </div>
-              </fieldset>
+                </fieldset>
+              </div>
             </form>
 
             <hr/>

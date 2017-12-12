@@ -277,8 +277,13 @@
 
   // Main Search.
   form.main-search {
-    background: url("../images/icon-find.png") no-repeat 5% center $pdx-colour-dark-white;
+    background-color: $pdx-colour-dark-white;
     padding: 50px 0 20px 0;
+
+    > .row {
+      background: url("../images/icon-find.png") no-repeat 5% center ;
+      background-size: auto 100%;
+    }
 
     input[type='text'],
     input[type='submit'] {
@@ -302,9 +307,13 @@
     }
 
     @media #{$small-only} {
-      background: url("../images/icon-find-mobile.png") no-repeat 5% center $pdx-colour-dark-white;
       background-size: 25%;
       padding: 10px 25px;
+
+      > .row {
+        background: url("../images/icon-find-mobile.png") no-repeat 0 center;
+        background-size: auto 50%;
+      }
     }
   }
 
