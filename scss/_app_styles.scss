@@ -134,6 +134,10 @@
     &.bold {
       border-width: 2px;
     }
+
+    @media #{$small-only} {
+      padding: .5rem 1rem;
+    }
   }
 
   // tabs
