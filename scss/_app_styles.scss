@@ -1,5 +1,9 @@
 @mixin app-styles() {
   h1, h2, h3 { text-transform: uppercase; }
+
+  div.content-wrapper {
+    background: $ebi-colour-white;
+  }
   #skip-to {
       top: -5000px;
       position: absolute;
