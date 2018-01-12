@@ -1,5 +1,8 @@
 @mixin app-styles() {
   h1, h2, h3 { text-transform: uppercase; }
+  h4, h5 {
+    color: $pdx-colour-cyan;
+  }
 
   div[content="content-wrapper"] {
     background: $ebi-colour-white;
