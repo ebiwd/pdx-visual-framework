@@ -5,8 +5,9 @@ $include-ebi-global-styles: true !global;
 $include-ebi-extra-styles: true !global;
 
 // Imports any needed fonts
-@import 'https://code.cdn.mozilla.net/fonts/fira.css';
-@import 'https://cdn.rawgit.com/tonsky/FiraCode/1.204/distr/fira_code.css';
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro');
+// @import 'https://code.cdn.mozilla.net/fonts/fira.css';
+// @import 'https://cdn.rawgit.com/tonsky/FiraCode/1.204/distr/fira_code.css';
 
 // Colours
 $ebi-colour-dark: #000;
@@ -71,9 +72,9 @@ $instagram: #e4405f;
 // typography
 $body-antialiased: true;
 $body-font-color: $ebi-colour-dark;
-$body-font-family: 'Fira Sans', Helvetica, Arial, sans-serif;
+$body-font-family: 'Maven Pro', Helvetica, Arial, sans-serif;
 $body-font-family-serif: 'EB Garamond', 'georgia', serif;
-$code-font-family: 'Fira Code', Consolas, 'Liberation Mono', Courier, monospace;
+$code-font-family: Consolas, 'Liberation Mono', Courier, monospace;
 $table-font-family: $code-font-family;
 $table-font-size: 0.9rem;
 $font-size-main-menu-items: 1.2rem;
