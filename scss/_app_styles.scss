@@ -382,6 +382,14 @@
       &,
       tr {
         border: none;
+
+        a {
+          text-decoration: underline;
+          &:hover {
+            text-decoration: none;
+          }
+        }
+
         &:nth-child(even) {
           background: none;
           border-width: 2px;
