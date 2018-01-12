@@ -281,13 +281,13 @@
       &:hover > a {
         background: none;
         color: $ebi-colour-dark;
-        border-bottom: 5px solid $pdx-colour-cyan;
+        border-bottom: $underline-thickness solid $pdx-colour-cyan;
       }
 
       a {
         color: $pdx-colour-grey;
         padding: 10px 0;
-        border-bottom: 5px solid transparent;
+        border-bottom: $underline-thickness solid transparent;
       }
     }
 
@@ -368,7 +368,7 @@
     thead {
       background: transparent;
       border: none;
-      border-bottom: 2px solid $pdx-colour-green;
+      border-bottom: $underline-thickness solid $pdx-colour-green;
       text-transform: uppercase;
 
       th {
@@ -510,7 +510,7 @@
 
   // Block Title.
   .block-title span {
-    border-bottom: 5px solid $pdx-colour-cyan;
+    border-bottom: $underline-thickness solid $pdx-colour-cyan;
     text-transform: uppercase;
     padding-bottom: 10px;
 
