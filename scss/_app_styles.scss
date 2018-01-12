@@ -376,6 +376,14 @@
     tbody {
       color: $pdx-colour-grey;
 
+      table.pdx-table  tbody tr:nth-child(even) {
+        background: none;
+        border-width: 2px;
+        border-style: solid none;
+        border-color: $pdx-colour-light-grey, #FFF;
+        height: 100%; // bugfix
+      }
+
       &,
       tr {
         border: none;
