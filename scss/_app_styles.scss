@@ -378,13 +378,14 @@
 
     tbody {
       color: $pdx-colour-grey;
+      border: none;
 
-      &,
       tr {
         border: none;
 
         a {
           text-decoration: underline;
+          &.has-tip,
           &:hover {
             text-decoration: none;
           }
