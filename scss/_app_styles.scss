@@ -318,12 +318,11 @@
 
   // Main Search.
   form.main-search {
-    background-color: $pdx-colour-dark-white;
+    background: url("../images/icon-find.png") no-repeat 5% center $pdx-colour-dark-white;
     padding: 50px 0 20px 0;
 
-    > .row {
-      background: url("../images/icon-find.png") no-repeat 5% center ;
-      background-size: auto 100%;
+    &.icon-2 {
+      background: url("../images/icon-find-mobile.png") no-repeat 5% center $pdx-colour-dark-white;
     }
 
     input[type='text'],
@@ -348,12 +347,11 @@
     }
 
     @media #{$small-only} {
-      background-size: 25%;
-      padding: 10px 25px;
-
-      > .row {
-        background: url("../images/icon-find-mobile.png") no-repeat 0 center;
-        background-size: auto 60px;
+      &, 
+      &.icon-2 {
+        background: url("../images/icon-find-mobile.png") no-repeat 5% center $pdx-colour-dark-white;
+        background-size: 85px;
+        padding: 10px 25px;
       }
     }
   }
@@ -368,7 +366,7 @@
     thead {
       background: transparent;
       border: none;
-      border-bottom: $underline-thickness solid $pdx-colour-green;
+      border-bottom: $underline-thickness solid $pdx-colour-light-green;
       text-transform: uppercase;
 
       th {
@@ -512,9 +510,13 @@
   }
 
   // Breadcrumbs
-  .breadcrumbs li {
-    background: $white;
-    padding: 5px 10px;
+  .breadcrumbs {
+    margin: 0 auto;
+
+    li {
+      background: $white;
+      padding: 5px 10px;
+    }
   }
 
   // Block Title.
@@ -700,14 +702,20 @@
     .item-number {
       display: inline-block;
       font-weight: $global-weight-extra-bold;
-      min-width: 35px;
+      min-width: 50px;
       padding-right: 10px;
-      margin-right: 10px;
+      margin-right: 20px;
       border-right: 2px solid $pdx-colour-light-green;
     }
 
     .item-link {
       text-decoration: underline;
+    }
+
+    i.has-tip {
+      border-bottom: none;
+      margin-left: 5px;
+      color: $pdx-colour-blue;
     }
   }
 
@@ -758,6 +766,23 @@
       }
     }
 
+  }
+
+  // Title Icons
+  h1, h2, h3, h4, h5, h6 {
+    &.title-icon-explore > span {
+      background: url('../images/icon-export.png') no-repeat 100% center;
+      padding-right: 75px;
+      padding-bottom: 60px;
+      padding-top: 60px;
+    }
+
+    &.title-icon-updates span {
+      background: url('../images/icon-updates.png') no-repeat 100% center;
+      padding-right: 80px;
+      padding-bottom: 45px;
+      padding-top: 60px;
+    }
   }
 
 }
