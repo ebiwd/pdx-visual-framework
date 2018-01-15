@@ -5097,7 +5097,7 @@ form.main-search {
 table.pdx-table thead {
   background: transparent;
   border: none;
-  border-bottom: 5px solid #73cfaf;
+  border-bottom: 2px solid #73cfaf;
   text-transform: uppercase; }
   table.pdx-table thead th {
     font-size: 1.3rem; }
@@ -5217,14 +5217,19 @@ ul.pdx-accordion-1 a.accordion-title {
   ul.pdx-accordion-1 a.accordion-title:before {
     display: none; }
   ul.pdx-accordion-1 a.accordion-title:after {
-    content: '+';
-    margin-left: 10px; }
+    content: '>';
+    font-family: "EBI-Functional";
+    margin-left: 10px;
+    font-size: .80em; }
 
 ul.pdx-accordion-1 .accordion-content {
   padding: 8px 0 10px 0; }
 
 ul.pdx-accordion-1 .is-active > .accordion-title::after {
-  content: '\2013'; }
+  display: inline-block;
+  -ms-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg); }
 
 .choices {
   margin: 0; }

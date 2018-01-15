@@ -366,7 +366,7 @@
     thead {
       background: transparent;
       border: none;
-      border-bottom: $underline-thickness solid $pdx-colour-light-green;
+      border-bottom: 2px solid $pdx-colour-light-green;
       text-transform: uppercase;
 
       th {
@@ -558,8 +558,10 @@
       }
 
       &:after {
-        content: '+';
+        content: '>';
+        font-family: "EBI-Functional";
         margin-left: 10px;
+        font-size: .80em;
       }
     }
 
@@ -568,7 +570,10 @@
     }
 
     .is-active > .accordion-title::after {
-      content: '\2013';
+      display: inline-block;
+      -ms-transform: rotate(90deg);
+      -webkit-transform: rotate(90deg);
+      transform: rotate(90deg);
     }
   }
 
