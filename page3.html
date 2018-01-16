@@ -182,25 +182,20 @@
 
         <div class="columns medium-3 small-12">
           <h5 class="block-title uppercase margin-vertical-30">Cancer Type:</h5>
-          <div class="counter-link-item">
-            <span class="item-number">112</span>
-            <a href="#" class="item-link">Lung Cancer</a>
-          </div>
-          <div class="counter-link-item">
-            <span class="item-number">84</span>
-            <a href="#" class="item-link">Breast Cancer</a>
-          </div>
-          <div class="counter-link-item">
-            <span class="item-number">27</span>
-            <a href="#" class="item-link">Colorectal Cancer</a>
-          </div>
-          <div class="counter-link-item">
-            <span class="item-number">12</span>
-            <a href="#" class="item-link">Ovarian Cancer</a>
-          </div>
+          <div id="cancer-types">Loading Cancer Types..</div>
+
+          <script id="template-cancer-types" type="text/x-handlebars-template">
+            {{#each this.cancer_by_type }}
+              <div class="counter-link-item">
+                <span class="item-number">{{ number }}</span>
+                <a href="#" class="item-link">{{ name }}</a>
+              </div>
+            {{/each}}
+          </script>
+        
 
           <div class="font-style-underline margin-top-30">
-              <a target="_blank" href="https://www.cancercenter.com/cancer/"> View All Cancer Types</a>
+              <a target="_blank" class="view-all-cancer-types"> View All Cancer Types</a>
             </div>
         </div>
 
@@ -210,37 +205,21 @@
         </div>
 
         <div class="columns medium-3 small-12">
-          <h5 class="block-title uppercase margin-vertical-30">Provider:</h5>
-          <div class="counter-link-item">
-            <span class="item-number">160</span>
-            <a href="https://www.google.co.uk/search?q=jax" class="item-link" target="_blank">JAX</a>
-            <i class="icon icon-generic" data-icon="i" data-tooltip aria-haspopup="true" class="has-tip" data-disable-hover="false" tabindex="1" title="Some text about JAX"></i>
-          </div>
-          <div class="counter-link-item">
-            <span class="item-number">84</span>
-            <a href="https://www.google.co.uk/search?q=cambridge" class="item-link" target="_blank">CAMBRIDGE</a>
-            <i class="icon icon-generic" data-icon="i" data-tooltip aria-haspopup="true" class="has-tip" data-disable-hover="false" tabindex="1" title="Some text about CAMBRIDGE"></i>
-          </div>
-          <div class="counter-link-item">
-            <span class="item-number">247</span>
-            <a href="https://www.google.co.uk/search?q=crown+bio" class="item-link" target="_blank">CROWN BIO</a>
-            <i class="icon icon-generic" data-icon="i" data-tooltip aria-haspopup="true" class="has-tip" data-disable-hover="false" tabindex="1" title="Some text about CROWN BIO"></i>
-          </div>
-          <div class="counter-link-item">
-            <span class="item-number">122</span>
-            <a href="#" class="item-link">EUROPDX</a>
-          </div>
-          <div class="counter-link-item">
-            <span class="item-number">12</span>
-            <a href="#" class="item-link">NIH</a>
-          </div>
-          <div class="counter-link-item">
-            <span class="item-number">12</span>
-            <a href="#" class="item-link">CHAMPION</a>
-          </div>
+          <h5 class="block-title uppercase margin-vertical-30">Providers:</h5>
+          <div id="providers">Loading Providers..</div>
+
+          <script id="template-providers" type="text/x-handlebars-template">
+            {{#each this.providers }}
+              <div class="counter-link-item">
+                <span class="item-number">{{ number }}</span>
+                <a href="https://www.google.co.uk/search?q={{ name }}" class="item-link" target="_blank">{{ name }}</a>
+                <i class="icon icon-generic" data-icon="i" data-tooltip aria-haspopup="true" class="has-tip" data-disable-hover="false" tabindex="1" title="{{ description }}"></i>
+              </div>
+            {{/each}}
+          </script>
 
           <div class="font-style-underline margin-top-30">
-            <a> View All Providers</a>
+            <a class="view-all-providers">  View All Providers</a>
           </div>
 
         </div>
@@ -426,7 +405,12 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script src="https://wwwdev.ebi.ac.uk/web_guidelines/EBI-Framework/v1.3/libraries/foundation-6/js/foundation.js"></script>
 <script src="https://ebi.emblstatic.net/web_guidelines/EBI-Framework/v1.2/libraries/Choices/assets/scripts/dist/choices.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.8/handlebars.min.js"></script>
+<script src="./js/handlebars.js"></script>
 <script src="./js/script.js"></script>
+<script>
+  getCancerTypesProviders();
+</script>
 
 <!-- <script src="https://wwwdev.ebi.ac.uk/web_guidelines/EBI-Framework/v1.3/js/foundationExtendEBI.js"></script> -->
 <!-- <script type="text/JavaScript">$(document).foundationExtendEBI();</script> -->

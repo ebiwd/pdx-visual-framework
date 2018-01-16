@@ -126,6 +126,10 @@
 .min-height-400 {
   min-height: 400px; }
 
+.max-height-300-scroll {
+  max-height: 300px;
+  overflow: auto; }
+
 .full-height {
   height: 100%; }
 
@@ -5373,3 +5377,7 @@ h1.title-icon-updates span, h2.title-icon-updates span, h3.title-icon-updates sp
   padding-right: 80px;
   padding-bottom: 45px;
   padding-top: 60px; }
+
+#cancer-types {
+  height: 195px;
+  overflow: hidden; }

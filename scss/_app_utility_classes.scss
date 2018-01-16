@@ -91,6 +91,11 @@
   min-height: 400px;
 }
 
+.max-height-300-scroll {
+  max-height: 300px;
+  overflow: auto
+}
+
 .full-height {
   height: 100%;
 }
