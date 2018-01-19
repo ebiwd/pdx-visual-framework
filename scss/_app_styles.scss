@@ -402,6 +402,22 @@
         padding-top: 30px;
       }
     }
+
+    &.head-left {
+
+      th {
+        color: $black;        
+      }
+
+      th, 
+      td {
+        vertical-align: middle;
+      }
+
+      tr:first-child th {
+        padding-top: 30px;
+      }
+    }
   }
 
   // Expand Menu
