@@ -361,6 +361,104 @@
     overflow: auto;
   }
 
+  table.datatable-pdx {
+    color: $pdx-colour-grey;
+    margin-bottom: 20px;
+
+    thead {
+      background: transparent;
+      border: none;
+      text-transform: uppercase;
+
+      th {
+        font-size: $font-size-table-head;
+        border-bottom: 2px solid $pdx-colour-light-green;
+
+        &.sorting_asc {
+          background-image: url('../images/sort_asc.png');
+        }
+
+        &.sorting_desc {
+          background-image: url('../images/sort_desc.png');
+        }
+      }
+    }
+
+    &.display {
+      tbody tr.odd,
+      tbody tr:hover {
+        background: $white;
+      }
+
+      tbody tr td {
+        border-top: none;
+        border-bottom: 2px solid $pdx-colour-light-grey;
+        padding: 10px;
+      }
+    }
+
+    &.display tbody tr.odd>.sorting_1,
+    &.display tbody tr:hover>.sorting_1,
+    &.display tbody tr.even>.sorting_2,
+    &.display tbody tr:hover>.sorting_2 {
+      background-color: $pdx-colour-light2;
+    }
+  }
+
+  .dataTables_wrapper div.dataTables_paginate {
+
+    .paginate_button {
+      background: $pdx-colour-grey;
+      color: $white !important;
+      float: left;
+      padding: 10px 15px;
+      margin-right: 5px;
+      border: none;
+      box-shadow: none;
+
+      &:hover,
+      &:active {
+        background: $pdx-colour-grey;
+        color: $white !important;
+        float: left;
+        padding: 10px 15px;
+        margin-right: 5px;
+        border: none;
+        box-shadow: none;
+        border: none;
+        box-shadow: none;
+      }
+
+      &.previous,
+      &.next {
+        background: $pdx-colour-light-green;
+      }
+
+      &.current {
+        background: $pdx-colour-blue;
+        color: $white !important;
+
+        &:hover {
+          background: $pdx-colour-blue;
+          color: $white !important;
+        }
+      }
+
+      &.disabled {
+        opacity: .5;
+        color: $white !important;
+
+        &:hover {
+          background: $pdx-colour-light-green;
+          color: $white !important;
+        }
+      }
+
+      &.ellipsis::after {
+        color: $white;
+      }
+    }
+  }
   table.pdx-table {
 
     thead {
