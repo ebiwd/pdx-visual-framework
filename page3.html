@@ -155,7 +155,30 @@
                 </div>
 
                 <div class="columns small-7 medium-push-2 small-push-3  margin-bottom-none search-text-wrapper">
-                  <input id="query" class="margin-bottom-none" title="EBI Search" tabindex="2" type="text" name="query" value="" size="35" maxlength="2048" placeholder="E.G. Breast cancer" required="">
+                  <select class="form-control" name="query" id="query" title="EBI Search" tabindex="2" placeholder="E.G. Breast cancer" multiple>
+                  <option value="select">Select</option>
+                  <option value="Madrid">Madrid</option>
+                  <option value="Toronto">Toronto</option>
+                  <option value="Vancouver">Vancouver</option>
+                  <option value="London">London</option>
+                  <option value="Manchester">Manchester</option>
+                  <option value="Liverpool">Liverpool</option>
+                  <option value="Paris">Paris</option>
+                  <option value="Malaga">Malaga</option>
+                  <option value="Washington" disabled>Washington</option>
+                  <option value="Lyon">Lyon</option>
+                  <option value="Marseille">Marseille</option>
+                  <option value="Hamburg">Hamburg</option>
+                  <option value="Munich">Munich</option>
+                  <option value="Barcelona">Barcelona</option>
+                  <option value="Berlin">Berlin</option>
+                  <option value="Montreal">Montreal</option>
+                  <option value="New York">New York</option>
+                  <option value="Michigan">Michigan</option>
+                  </select>
+
+
+                  <!-- <input id="query" class="margin-bottom-none" title="EBI Search" tabindex="2" type="text" name="query" value="" size="35" maxlength="2048" placeholder="E.G. Breast cancer" required=""> -->
                   <span class="form-error margin-top-small">
                         You need to enter a search query.
                     </span>
@@ -413,17 +436,32 @@
 </script>
 <script>
 // Test choices integration
-const choicesd = new Choices('#query', {
+const mainSearch = new Choices('#query', {
     silent: false,
-    items: ["Alpha", "Bravo", "Charlie"],
-    choices: [
-          { value: 'One', label: 'Label One' },
-          { value: 'Two', label: 'Label Two', disabled: true },
-          { value: 'Three', label: 'Label Three' },
-        ],
-    loadingText: 'Loading...',
+    removeItemButton: true,
+    placeholder: false,
+    placeholderValue: 'This is a placeholder',
+    maxItemCount: 5,
+    searchResultLimit: 4,
     noResultsText: 'No results found'
 });
+
+function conditionallyShowDropdown(event) {
+  var length = event.target.form.querySelector(".choices__input--cloned").value.length;
+  if (length < 3) {
+    $('.choices__list--dropdown').hide();
+  } else {
+    $('.choices__list--dropdown').show();
+  }
+}
+
+mainSearch.passedElement.addEventListener('showDropdown', function(event) {
+  conditionallyShowDropdown(event);
+}, false);
+mainSearch.passedElement.addEventListener('search', function(event) {
+  conditionallyShowDropdown(event);
+}, false);
+
 </script>
 
 <!-- <script src="https://wwwdev.ebi.ac.uk/web_guidelines/EBI-Framework/v1.3/js/foundationExtendEBI.js"></script> -->
