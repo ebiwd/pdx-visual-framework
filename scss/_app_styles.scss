@@ -321,16 +321,25 @@
     background: url("../images/icon-find.png") no-repeat 5% center $pdx-colour-dark-white;
     padding: 50px 0 20px 0;
 
+    .choices {
+      margin-bottom: 0;
+      .choices__inner {
+        background: $white;
+        padding-bottom: 4px;
+      }
+    }
+
+
     &.icon-2 {
       background: url("../images/icon-find-mobile.png") no-repeat 5% center $pdx-colour-dark-white;
     }
 
-    input[type='text'],
+    input[type='text']:not(.choices__input),
     input[type='submit'] {
       height: 60px;
     }
 
-    input[type='text'] {
+    input[type='text']:not(.choices__input) {
       box-shadow: none;
       border: 2px solid $pdx-colour-gray-border;
       border-right: none;
@@ -347,7 +356,7 @@
     }
 
     @media #{$small-only} {
-      &, 
+      &,
       &.icon-2 {
         background: url("../images/icon-find-mobile.png") no-repeat 5% center $pdx-colour-dark-white;
         background-size: 85px;
@@ -513,10 +522,10 @@
       }
 
       th {
-        color: $black;        
+        color: $black;
       }
 
-      th, 
+      th,
       td {
         vertical-align: middle;
       }

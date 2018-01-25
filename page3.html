@@ -36,11 +36,11 @@
 
   <!-- <link rel="stylesheet" href="https://dev.ebi.emblstatic.net/web_guidelines/EBI-Framework/v1.3/css/ebi-global.css" type="text/css" media="all" /> -->
   <link rel="stylesheet" href="https://dev.ebi.emblstatic.net/web_guidelines/EBI-Icon-fonts/v1.2/fonts.css" type="text/css" media="all" />
-  <!-- Import Choice Library stylesheet-->
-  <link rel="stylesheet" href="https://ebi.emblstatic.net/web_guidelines/EBI-Framework/v1.2/libraries/Choices/assets/styles/css/choices.min.css">
+
   <!-- Use this CSS file for any custom styling -->
   <link rel="stylesheet" href="css/app.css" type="text/css" media="all" />
-
+  <!-- Import Choice Library stylesheet-->
+  <link rel="stylesheet" href="https://ebi.emblstatic.net/web_guidelines/EBI-Framework/v1.2/libraries/Choices/assets/styles/css/choices.min.css">
   <!-- If you have a custom header image or colour -->
   <!--
   <meta name="ebi:masthead-color" content="#000" />
@@ -192,7 +192,7 @@
               </div>
             {{/each}}
           </script>
-        
+
 
           <div class="font-style-underline margin-top-30">
               <a target="_blank" class="view-all-cancer-types"> View All Cancer Types</a>
@@ -410,6 +410,20 @@
 <script src="./js/script.js"></script>
 <script>
   getCancerTypesProviders();
+</script>
+<script>
+// Test choices integration
+const choicesd = new Choices('#query', {
+    silent: false,
+    items: ["Alpha", "Bravo", "Charlie"],
+    choices: [
+          { value: 'One', label: 'Label One' },
+          { value: 'Two', label: 'Label Two', disabled: true },
+          { value: 'Three', label: 'Label Three' },
+        ],
+    loadingText: 'Loading...',
+    noResultsText: 'No results found'
+});
 </script>
 
 <!-- <script src="https://wwwdev.ebi.ac.uk/web_guidelines/EBI-Framework/v1.3/js/foundationExtendEBI.js"></script> -->
