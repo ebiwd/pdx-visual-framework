@@ -432,6 +432,7 @@ const mainSearch = new Choices('#query', {
     // placeholder: false,
     // placeholderValue: 'This is a placeholder',
     maxItemCount: 5,
+    searchFloor: 0,
     searchResultLimit: 4,
     noResultsText: 'No results found',
     fuseOptions: {
@@ -443,12 +444,11 @@ const mainSearch = new Choices('#query', {
     }
 });
 
-function conditionallyShowDropdown(currentSearch) {
-  console.log(currentSearch)
-  if (currentSearch.length < 1) {
-    $('.choices__list--dropdown').hide();
+function conditionallyShowDropdown(str) {
+  if (str.length < 1) {
+    mainSearch.hideDropdown();
   } else {
-    $('.choices__list--dropdown').show();
+    // mainSearch.showDropdown();
   }
 }
 
@@ -466,12 +466,9 @@ mainSearch.passedElement.addEventListener('search', function(event) {
   $('.choices__list--dropdown').highlightRegex(); //clear
   $('.choices__list--dropdown').highlightRegex(new RegExp(regexEscape(currentSearch),'ig'), {
     tagType:   'span',
-    className: 'search-highlight',
-    caseSensitive: false
+    className: 'search-highlight'
   });
-}, false);
-mainSearch.passedElement.addEventListener('search', function(event) {
-  conditionallyShowDropdown(mainSearch.currentValue);
+  conditionallyShowDropdown(currentSearch);
 }, false);
 
 </script>
