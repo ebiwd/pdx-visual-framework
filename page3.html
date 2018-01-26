@@ -431,9 +431,9 @@ const mainSearch = new Choices('#query', {
     removeItemButton: true,
     // placeholder: false,
     // placeholderValue: 'This is a placeholder',
-    maxItemCount: 5,
+    maxItemCount: 1,
     searchFloor: 0,
-    searchResultLimit: 4,
+    searchResultLimit: 10,
     noResultsText: 'No results found',
     fuseOptions: {
       threshold: 0.1,
@@ -469,6 +469,9 @@ mainSearch.passedElement.addEventListener('search', function(event) {
     className: 'search-highlight'
   });
   conditionallyShowDropdown(currentSearch);
+}, false);
+mainSearch.passedElement.addEventListener('choice', function(event) {
+  $('form.main-search').submit();
 }, false);
 
 </script>
