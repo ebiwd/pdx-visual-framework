@@ -461,8 +461,13 @@ mainSearch.passedElement.addEventListener('showDropdown', function(event) {
     if (mainSearch.currentState.items[mainSearch.currentState.items.length-1].active) {
       // only show dropdown if something hasn't been selected
       mainSearch.hideDropdown();
+
+      // hide placeholder text
+      $('.choices__input').hide();
     }
   } else {
+    // show placeholder text
+    $('.choices__input').show();
     // show dropdown if nothing selected and a long enough string entered
     conditionallyShowDropdown(mainSearch.currentValue);
   }
@@ -482,9 +487,19 @@ mainSearch.passedElement.addEventListener('choice', function(event) {
   // Hide form after selecting an option
   mainSearch.hideDropdown();
 
+  // hide placeholder text
+  $('.choices__input').hide();
+
   // To autosubmit on select
   // $('form.main-search').submit();
 }, false);
+
+mainSearch.passedElement.addEventListener('removeItem', function(event) {
+  // show placeholder text
+  $('.choices__input').show();
+}, false);
+
+
 
 </script>
 

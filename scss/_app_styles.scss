@@ -321,6 +321,11 @@
     background: url("../images/icon-find.png") no-repeat 5% center $pdx-colour-dark-white;
     padding: 50px 0 20px 0;
 
+    .choices[data-type='select-multiple'] .choices__item[aria-selected='true'] {
+      background: #fff;
+      border-color: #fff;
+    }
+
     .choices {
       margin-bottom: 0;
       .choices__inner {
