@@ -463,11 +463,12 @@ mainSearch.passedElement.addEventListener('showDropdown', function(event) {
       mainSearch.hideDropdown();
 
       // hide placeholder text
-      $('.choices__input').hide();
+      $('.main-search .choices__input').attr("placeholder","  ");
+      // $('.choices__input').hide();
     }
   } else {
     // show placeholder text
-    $('.choices__input').show();
+    $('.main-search .choices__input').attr("placeholder","E.G. Breast cancer");
     // show dropdown if nothing selected and a long enough string entered
     conditionallyShowDropdown(mainSearch.currentValue);
   }
@@ -476,8 +477,8 @@ mainSearch.passedElement.addEventListener('search', function(event) {
   var currentSearch = mainSearch.currentValue;
   // highlight match, docs:
   // https://github.com/jbr/jQuery.highlightRegex
-  $('.choices__list--dropdown').highlightRegex(); //clear
-  $('.choices__list--dropdown').highlightRegex(new RegExp(regexEscape(currentSearch),'ig'), {
+  $('.main-search .choices__list--dropdown').highlightRegex(); //clear
+  $('.main-search .choices__list--dropdown').highlightRegex(new RegExp(regexEscape(currentSearch),'ig'), {
     tagType:   'span',
     className: 'search-highlight'
   });
@@ -488,7 +489,10 @@ mainSearch.passedElement.addEventListener('choice', function(event) {
   mainSearch.hideDropdown();
 
   // hide placeholder text
-  $('.choices__input').hide();
+  $('.main-search .choices__input').attr("placeholder","  ");
+
+  // drop the parenthetical
+  $('.main-search .choices__list .choices__item').text('test')
 
   // To autosubmit on select
   // $('form.main-search').submit();
@@ -496,7 +500,7 @@ mainSearch.passedElement.addEventListener('choice', function(event) {
 
 mainSearch.passedElement.addEventListener('removeItem', function(event) {
   // show placeholder text
-  $('.choices__input').show();
+  $('.main-search .choices__input').attr("placeholder","E.G. Breast cancer");
 }, false);
 
 

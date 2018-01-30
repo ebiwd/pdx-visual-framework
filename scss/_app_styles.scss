@@ -327,6 +327,11 @@
     }
 
     .choices {
+
+      button.choices__button {
+        display: none;
+      }
+      
       margin-bottom: 0;
       .choices__inner {
         background: $white;
