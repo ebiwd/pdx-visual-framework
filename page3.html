@@ -448,7 +448,7 @@ function conditionallyShowDropdown(str) {
   if (str.length < 1) {
     mainSearch.hideDropdown();
   } else {
-    // mainSearch.showDropdown();
+    mainSearch.showDropdown();
   }
 }
 
@@ -457,7 +457,15 @@ function regexEscape(str) {
 }
 
 mainSearch.passedElement.addEventListener('showDropdown', function(event) {
-  conditionallyShowDropdown(mainSearch.currentValue);
+  if (mainSearch.currentState.items.length) {
+    if (mainSearch.currentState.items[mainSearch.currentState.items.length-1].active) {
+      // only show dropdown if something hasn't been selected
+      mainSearch.hideDropdown();
+    }
+  } else {
+    // show dropdown if nothing selected and a long enough string entered
+    conditionallyShowDropdown(mainSearch.currentValue);
+  }
 }, false);
 mainSearch.passedElement.addEventListener('search', function(event) {
   var currentSearch = mainSearch.currentValue;
@@ -471,6 +479,9 @@ mainSearch.passedElement.addEventListener('search', function(event) {
   conditionallyShowDropdown(currentSearch);
 }, false);
 mainSearch.passedElement.addEventListener('choice', function(event) {
+  // Hide form after selecting an option
+  mainSearch.hideDropdown();
+
   // To autosubmit on select
   // $('form.main-search').submit();
 }, false);
