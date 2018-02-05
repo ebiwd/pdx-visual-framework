@@ -331,11 +331,11 @@
       button.choices__button {
         display: none;
       }
-      
+
       margin-bottom: 0;
       .choices__inner {
         background: $white;
-        padding-bottom: 4px;
+        padding: 8px .5rem 9px;
       }
 
       .search-highlight {
