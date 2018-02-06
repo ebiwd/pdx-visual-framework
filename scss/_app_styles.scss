@@ -336,6 +336,15 @@
       .choices__inner {
         background: $white;
         padding: 8px .5rem 9px;
+
+        .choices__list .choices__item,
+        .choices__input {
+          font-size: 1.2rem;
+        }
+        .choices__input {
+          min-width: 80%;
+        }
+
       }
 
       .search-highlight {
