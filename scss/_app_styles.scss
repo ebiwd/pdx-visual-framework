@@ -318,8 +318,12 @@
 
   // Main Search.
   form.main-search {
-    background: url("../images/icon-find.png") no-repeat 5% center $pdx-colour-dark-white;
+    background: $pdx-colour-dark-white;
     padding: 50px 0 20px 0;
+
+    > .row {
+      background: url("../images/icon-find.png") no-repeat 1rem center $pdx-colour-dark-white;
+    }
 
     .choices[data-type='select-multiple'] .choices__item[aria-selected='true'] {
       background: #fff;
