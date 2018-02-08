@@ -324,8 +324,28 @@
     &.icon-2-container {
       background: $pdx-colour-dark-white;
 
-      > .row {
-        background: url("../images/icon-find-mobile.png") no-repeat 1rem center $pdx-colour-dark-white;
+      .icon-wrapper {
+        background: url("../images/icon-find.png") no-repeat 0 50%;
+        background-size: 70%;
+        position: relative;
+        padding-top: 100px;
+        padding-bottom: 60px;
+        margin-top: -50px;
+        margin-bottom: -40px;
+
+
+        h2 {
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+        }
+
+        @media #{$small-only} {
+          & {
+            padding-bottom: 120px;
+            margin-bottom: -80px;
+          }
+        }
       }
     }
 
@@ -1004,6 +1024,10 @@
       }
     }
 
+  }
+
+  .min-height-80 {
+    min-height: 80px;
   }
 
   // Title Icons

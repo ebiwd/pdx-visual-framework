@@ -5076,8 +5076,22 @@ form.main-search {
   padding: 50px 0 20px 0; }
   form.main-search.icon-2-container {
     background: #e6e7e8; }
-    form.main-search.icon-2-container > .row {
-      background: url("../images/icon-find-mobile.png") no-repeat 1rem center #e6e7e8; }
+    form.main-search.icon-2-container .icon-wrapper {
+      background: url("../images/icon-find.png") no-repeat 0 50%;
+      background-size: 70%;
+      position: relative;
+      padding-top: 100px;
+      padding-bottom: 60px;
+      margin-top: -50px;
+      margin-bottom: -40px; }
+      form.main-search.icon-2-container .icon-wrapper h2 {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%); }
+      @media screen and (max-width: 39.9375em) {
+        form.main-search.icon-2-container .icon-wrapper {
+          padding-bottom: 120px;
+          margin-bottom: -80px; } }
   form.main-search .choices[data-type='select-multiple'] .choices__item[aria-selected='true'] {
     background: #fff;
     border-color: #fff; }
@@ -5508,6 +5522,9 @@ ul.pdx-accordion-2 div.accordion-content {
       height: 100%;
       background: rgba(125, 124, 124, 0.6);
       z-index: 2; }
+
+.min-height-80 {
+  min-height: 80px; }
 
 h1.title-icon-explore > span, h2.title-icon-explore > span, h3.title-icon-explore > span, h4.title-icon-explore > span, h5.title-icon-explore > span, h6.title-icon-explore > span {
   background: url("../images/icon-export.png") no-repeat 100% center;
