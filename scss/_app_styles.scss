@@ -341,6 +341,10 @@
     }
 
     .choices {
+      .choices__inner .choices__list .choices__item,
+      .choices__inner .choices__input {
+        padding: 0;
+      }
 
       button.choices__button {
         display: none;

@@ -5085,6 +5085,9 @@ form.main-search {
     font-size: 1.2rem; }
   form.main-search .choices {
     margin-bottom: 0; }
+    form.main-search .choices .choices__inner .choices__list .choices__item,
+    form.main-search .choices .choices__inner .choices__input {
+      padding: 0; }
     form.main-search .choices button.choices__button {
       display: none; }
     form.main-search .choices .choices__inner {
