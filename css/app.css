@@ -5094,7 +5094,7 @@ form.main-search {
       form.main-search .choices .choices__inner .choices__input {
         font-size: 1.2rem; }
       form.main-search .choices .choices__inner .choices__input {
-        min-width: auto !important; }
+        min-width: 40% !important; }
     form.main-search .choices .search-highlight {
       border-bottom: 2px solid #00b2d5; }
   form.main-search.icon-2 {
