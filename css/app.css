@@ -5074,11 +5074,15 @@ ul.main-menu.menu.dropdown.menu > li.is-dropdown-submenu-parent > a::after {
 form.main-search {
   background: #e6e7e8;
   padding: 50px 0 20px 0; }
+  form.main-search:not(.icon-2-container) > .row {
+    background: url("../images/icon-find") no-repeat 0 50%;
+    padding-top: 10px;
+    margin-top: -20px; }
   form.main-search.icon-2-container {
     background: #e6e7e8; }
     form.main-search.icon-2-container .icon-wrapper {
       background: url("../images/icon-find.png") no-repeat 0 50%;
-      background-size: 70%;
+      background-size: 60%;
       position: relative;
       padding-top: 100px;
       padding-bottom: 60px;

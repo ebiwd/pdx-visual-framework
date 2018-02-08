@@ -321,12 +321,18 @@
     background: $pdx-colour-dark-white;
     padding: 50px 0 20px 0;
 
+    &:not(.icon-2-container) > .row {
+      background: url('../images/icon-find') no-repeat 0 50%;
+      padding-top: 10px;
+      margin-top: -20px;
+    }
+
     &.icon-2-container {
       background: $pdx-colour-dark-white;
 
       .icon-wrapper {
         background: url("../images/icon-find.png") no-repeat 0 50%;
-        background-size: 70%;
+        background-size: 60%;
         position: relative;
         padding-top: 100px;
         padding-bottom: 60px;
