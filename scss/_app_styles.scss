@@ -321,13 +321,23 @@
     background: $pdx-colour-dark-white;
     padding: 50px 0 20px 0;
 
-    > .row {
-      background: url("../images/icon-find.png") no-repeat 1rem center $pdx-colour-dark-white;
+    &.icon-2-container {
+      background: $pdx-colour-dark-white;
+
+      > .row {
+        background: url("../images/icon-find-mobile.png") no-repeat 1rem center $pdx-colour-dark-white;
+      }
     }
+
+
 
     .choices[data-type='select-multiple'] .choices__item[aria-selected='true'] {
       background: #fff;
       border-color: #fff;
+    }
+
+    .choices__list--dropdown .choices__item {
+      font-size: 1.2rem;
     }
 
     .choices {
@@ -346,7 +356,7 @@
           font-size: 1.2rem;
         }
         .choices__input {
-          min-width: 80%;
+          min-width: auto !important;
         }
 
       }
