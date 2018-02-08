@@ -5316,7 +5316,7 @@ ul.pagination.pdx-pagination li {
   margin: 0 auto; }
   .breadcrumbs li {
     background: #fefefe;
-    padding: 5px 10px; }
+    padding: 0; }
 
 .block-title span {
   border-bottom: 5px solid #00b2d5;
