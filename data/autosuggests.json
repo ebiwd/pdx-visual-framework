@@ -1,0 +1,1343 @@
+
+[ {
+  "value" : "Cancer",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Neoplasm by Morphology",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Neoplasm by Site",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Reproductive System Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Connective and Soft Tissue Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Nervous System Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Respiratory Tract Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Skin Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Urinary System Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Thoracic Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Head and Neck Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Digestive System Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Eye Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Endocrine Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Breast Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Peritoneal and Retroperitoneal Neoplasms",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Hematopoietic and Lymphoid System Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Soft Tissue Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Bone Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Sarcoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Mesenchymal Cell Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Osteogenic Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Stromal Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Chondrogenic Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Myomatous Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Lipomatous Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Fibroblastic Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Retroperitoneal Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Bone Cancer",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Bone Sarcoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Ewing Sarcoma/Peripheral Primitive Neuroectodermal Tumor of Bone",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Skeletal Muscle Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Muscle Cancer",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Smooth Muscle Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Papillary Breast Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Lobular Neoplasia",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Intraductal Breast Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Breast Cancer",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Skeletal Muscle Cancer",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Eye Cancer",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Uveal Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Retroperitoneal Cancer",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Adrenal Gland Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Thoracic Cancer",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Lung Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Intraductal Proliferative Lesion of the Breast",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Intraductal Papillary Breast Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Smooth Muscle Cancer",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Uterine Corpus Smooth Muscle Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Uterine Corpus Leiomyosarcoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Rhabdomyosarcoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Alveolar Rhabdomyosarcoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Embryonal Rhabdomyosarcoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Leiomyosarcoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Non-Cutaneous Leiomyosarcoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Epithelioid Leiomyosarcoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Fibrosarcoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Adrenal Gland Cancer",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Lobular Breast Carcinoma In Situ",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Lung Cancer",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Adrenal Medulla Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Ductal Breast Carcinoma In Situ",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Uveal Cancer",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Papillary Breast Carcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Intraductal Papillary Breast Carcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Bone Leiomyosarcoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Spindle Cell Sarcoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Ewing Sarcoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Malignant Peripheral Nerve Sheath Tumor",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Liposarcoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Chondrosarcoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Soft Tissue Sarcoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Sarcoma by NCI Grade",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Sarcoma by FNCLCC Grade",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Osteosarcoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Childhood Osteosarcoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Bone Osteosarcoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Sarcoma NCI Grade 3",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Ovarian Soft Tissue Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Soft Tissue Cancer",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Soft Tissue Tumor of Uncertain Differentiation",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Uterine Corpus Soft Tissue Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Pleomorphic Liposarcoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Lipomatous Cancer",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Adrenal Medulla Cancer",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Malignant Soft Tissue Tumor of Uncertain Differentiation",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Extraskeletal Ewing Sarcoma/Peripheral Primitive Neuroectodermal Tumor",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Stromal Sarcoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Gastrointestinal Stromal Tumor",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Hematopoietic and Lymphoid Cell Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Bone Marrow Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Leukemia",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Myeloid Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Lymphocytic Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Endocrine Cancer",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Neuroendocrine Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "High Grade Lung Neuroendocrine Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Neuroendocrine Carcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Large Cell Neuroendocrine Carcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Small Cell Carcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Digestive System Neuroendocrine Carcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Merkel Cell Carcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Pancreatic Neuroendocrine Carcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Esophageal Neuroendocrine Carcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Large Cell Lung Neuroendocrine Carcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Small Cell Lung Carcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Lung Neuroendocrine Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Digestive System Neuroendocrine Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Carcinoid Tumor",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Nervous System Cancer",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Peripheral Nervous System Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Central Nervous System Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Neuroepithelial, Perineurial, and Schwann Cell Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Nerve Sheath Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Neuroepithelial Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Peripheral Nervous System Cancer",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Ovarian Sarcoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Foregut Carcinoid Tumor",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Lung Carcinoid Tumor",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Ewing Sarcoma of Bone",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Primitive Neuroectodermal Tumor",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Glioma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Mixed Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Mesothelial Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Epithelial Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Germ Cell Tumor",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Giant Cell Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Melanocytic Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Giant Cell Cancer",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Mixed Mesodermal (Mullerian) Tumor",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Mixed Cancer",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Nongerminomatous Germ Cell Tumor",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Testicular Germ Cell Tumor",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Teratoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Testicular Non-Seminomatous Germ Cell Tumor",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Myeloid Leukemia",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Acute Leukemia",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Lymphoid Leukemia",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Acute Myeloid Leukemia",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Acute Lymphoblastic Leukemia",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Acute Myeloid Leukemia Not Otherwise Specified",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Adult Acute Lymphoblastic Leukemia",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "B Acute Lymphoblastic Leukemia",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Adult B Acute Lymphoblastic Leukemia",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Digestive System Cancer",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Ampulla of Vater Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Appendix Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Intestinal Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Pancreatic Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Gastric Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Esophageal Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Anal Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Hepatobiliary Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Small Intestinal Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Intestinal Cancer",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Colorectal Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Gastric Cancer",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Gastric Carcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Ocular Melanoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Uveal Melanoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Adrenal Gland Neuroblastoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Appendix Cancer",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Appendix Carcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Ovarian Adenosarcoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Esophageal Neuroendocrine Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Esophageal Cancer",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "B-Cell Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Lymphoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Precursor Lymphoid Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Mature B-Cell Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "B-Cell Non-Hodgkin Lymphoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "B Lymphoblastic Leukemia/Lymphoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Non-Hodgkin Lymphoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Hodgkin Lymphoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Digestive System Carcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Ampulla of Vater Cancer",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Pancreatic Cancer",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Hepatobiliary Cancer",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Anal Cancer",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Exocrine Pancreas Cancer",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Bile Duct Carcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Ampulla of Vater Carcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Esophageal Carcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Pancreatic Carcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Colorectal Carcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Anal Carcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Liver and Intrahepatic Bile Duct Carcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Small Intestinal Carcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Colorectal Adenocarcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Colon Carcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Rectal Carcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Colorectal Cancer",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Small Intestinal Cancer",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Neuroblastic Tumor",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Neuroblastoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Colon Cancer",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Rectal Cancer",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Anal Adenocarcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Anal Squamous Cell Carcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Anal Canal Carcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Anal Canal Squamous Cell Carcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Synovial Sarcoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Extraskeletal Ewing Sarcoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Intraductal Micropapillary Breast Carcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Intracystic Papillary Breast Carcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Mature B-Cell Non-Hodgkin Lymphoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Melanoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Melanocytic Skin Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Mesothelioma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Malignant Mesothelioma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Head and Neck Cancer",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Neck Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Salivary Gland Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Oral Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Neck Cancer",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Salivary Gland Cancer",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Oral Cancer",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Head and Neck Carcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Lip and Oral Cavity Carcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Lung Carcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Diffuse Large B-Cell Lymphoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Neck Carcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Pharyngeal Cancer",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Laryngeal Cancer",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Laryngeal Carcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Pharyngeal Carcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Oropharyngeal Cancer",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Esophageal Small Cell Neuroendocrine Carcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Cutaneous Melanoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Salivary Gland Carcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Head and Neck Squamous Cell Carcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Lip and Oral Cavity Squamous Cell Carcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Testicular Pure Germ Cell Tumor",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Testicular Teratoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Adenosarcoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Laryngeal Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Pharyngeal Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Primary  Liver Cancer",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Bile Duct Adenocarcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Laryngeal Squamous Cell Carcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Giant Cell Glioblastoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Non-Cutaneous Melanoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Salivary Gland Mucoepidermoid Carcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Oropharyngeal Carcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Tonsillar Cancer",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Tonsillar Carcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Ampulla of Vater Adenocarcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Tonsillar Squamous Cell Carcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Pancreatic Adenosquamous Carcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Pancreatic Adenocarcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Pancreatic Ductal Adenocarcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Colon Adenocarcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Cecum Carcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Cecum Adenocarcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Pharyngeal Squamous Cell Carcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Duodenal Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Duodenal Cancer",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Duodenal Carcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Uterine Corpus Sarcoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Respiratory Tract Cancer",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Astrocytic Tumor",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Malignant Glioma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Diffuse Glioma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "High Grade Astrocytic Tumor",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Adult Astrocytic Tumor",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Astrocytoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Adult Infiltrating Astrocytic Tumor",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Breast Carcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Gastric Adenocarcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Colon Signet Ring Cell Adenocarcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Colon Mucinous Adenocarcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Rectal Adenocarcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Acute Monoblastic and Monocytic Leukemia",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Acral Lentiginous Melanoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Nodular Melanoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Lentigo Maligna Melanoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Superficial Spreading Melanoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Transitional Cell Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Ovarian Epithelial Tumor",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Squamous Cell Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Carcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Intraepithelial Neoplasia",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Papillary Epithelial Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Glandular Cell Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Epithelial Skin Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Non-Small Cell Carcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Sarcomatoid Carcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Metaplastic Carcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Mucin-Producing Carcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Endometrial Carcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Invasive Carcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Kidney Carcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Carcinoma In Situ",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Transitional Cell Carcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Squamous Cell Carcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Papillary Carcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Adenocarcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Adenosquamous Carcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Large Cell Carcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Solid Carcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Bladder Carcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Skin Carcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Ovarian Carcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Prostate Carcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Ovarian Adenocarcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Sarcomatoid Transitional Cell Carcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Pleomorphic Carcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Mucoepidermoid Carcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Solid Lung Adenocarcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Papillary Transitional Cell Carcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Papillary Adenocarcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Serous Surface Papillary Carcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Papillary Urothelial Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Ovarian Papillary Tumor",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Ovarian Serous Surface Papillary Adenocarcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Mucinous Adenocarcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Breast Adenocarcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Non-Small Cell Adenocarcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Adenocarcinoma with Metaplasia",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Bladder Adenocarcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Serous Adenocarcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Endometrial Adenocarcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Small Intestinal Adenocarcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Appendix Adenocarcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Renal Cell Carcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Prostate Adenocarcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Clear Cell Adenocarcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Signet Ring Cell Carcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Adenocarcinoma In Situ",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Grade III Glandular Intraepithelial Neoplasia",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Lung Adenocarcinoma In Situ",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Ductal Breast Carcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Inflammatory Breast Carcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Lobular Breast Carcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Breast Adenocarcinoma with Spindle Cell Metaplasia",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Invasive Ductal Carcinoma, Not Otherwise Specified",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Colorectal Mucinous Adenocarcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Colorectal Signet Ring Cell Carcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Invasive Lobular Breast Carcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Urothelial Carcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Glandular Cell Intraepithelial Neoplasia",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "High Grade Intraepithelial Neoplasia",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Urothelial Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Bladder Papillary Urothelial Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Ovarian Serous Adenocarcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Non-Small Cell Lung Carcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Squamous Cell Lung Carcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Large Cell Lung Carcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Lung Adenocarcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Adenosquamous Lung Carcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Glioblastoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Brain Glioblastoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Glioblastoma, IDH-Wildtype",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Adult Glioblastoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Bladder Squamous Cell Carcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Skin Squamous Cell Carcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Central Nervous System Cancer",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Bladder Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Urinary System Cancer",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Kidney and Ureter Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Bladder Cancer",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Kidney Cancer",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Bladder Urothelial Carcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Infiltrating Urothelial Carcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Infiltrating Bladder Urothelial Carcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Bladder Papillary Urothelial Carcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Oropharyngeal Squamous Cell Carcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Dermal Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Skin Cancer",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Dermal Cancer",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Diffuse Malignant Mesothelioma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Biphasic Mesothelioma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Epithelioid Mesothelioma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Oropharyngeal Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "FNCLCC Sarcoma Grade 3",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Cholangiocarcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Serous Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Mucinous Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Appendix Mucinous Adenocarcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Invasive Breast Carcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Invasive Prostate Carcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Metaplastic Breast Carcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Bladder Small Cell Neuroendocrine Carcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Acute Monocytic Leukemia",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Breast Cancer by AJCC v6 Stage",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Breast Cancer by AJCC v7 Stage",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Multicentric Breast Carcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Breast Carcinoma by Gene Expression Profile",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Breast Cancer by AJCC v8 Stage",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Stage 0 Breast Cancer AJCC v6 and v7",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Lung Colloid Adenocarcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Acinar Lung Adenocarcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Throat Cancer",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Adenocarcinoma with Spindle Cell Metaplasia",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Classical Hodgkin Lymphoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Nodular Sclerosis Classical Hodgkin Lymphoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Ovarian Serous Tumor",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Malignant Ovarian Epithelial Tumor",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Malignant Ovarian Serous Tumor",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Cecum Cancer",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Undifferentiated/Unclassified Sarcoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Anatomic Stage 0 Breast Cancer AJCC v8",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Pancreatic Neuroendocrine Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Duodenal Adenocarcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Rectal Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Colon Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Cecum Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Clear Cell Renal Cell Carcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Childhood  Kidney Cancer",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Undifferentiated Pleomorphic Sarcoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "High Grade Glandular Intraepithelial Neoplasia",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Kidney Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Childhood Kidney Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Rhabdoid Tumor of the Kidney",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Extracranial Neuroblastoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Bone Marrow Cancer",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Adult Central Nervous System Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Basal-Like Breast Carcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Luminal B Breast Carcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Bile Duct Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Liver and Intrahepatic Bile Duct Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Liver and Intrahepatic Bile Duct Epithelial Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Peripheral Neuroblastoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Neuroblastoma of the Adrenal Gland and Sympathetic Nervous System",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Bladder Signet Ring Cell Adenocarcinoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Tonsillar Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Pancreatic Exocrine Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Female Reproductive System Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Male Reproductive System Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Reproductive System Cancer",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Ovarian Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Female Reproductive System Cancer",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Uterine Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Uterine Corpus Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Uterine Cancer",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Male Reproductive System Cancer",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Ovarian Cancer",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Uterine Corpus Cancer",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Endometrial Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Endometrial Cancer",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Uterine Corpus Cancer",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Prostate Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Testicular Neoplasm",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Prostate Cancer",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Mucosal Melanoma",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Breast Cancer by AJCC v8 Anatomic Stage",
+  "context" : "OntologyTerm"
+}, {
+  "value" : "Gonadal Teratoma",
+  "context" : "OntologyTerm"
+} ]

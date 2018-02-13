@@ -448,7 +448,8 @@ const mainSearch = new Choices('#query', {
 });
 
 mainSearch.ajax(function(callback) {
-  fetch('http://dev.pdxfinder.org/data/autosuggests')
+  // fetch('http://dev.pdxfinder.org/data/autosuggests')
+  fetch('//ebiwd.github.io/pdx-visual-framework/data/autosuggests.json')
     .then(function(response) {
       response.json().then(function(data) {
         callback(data, 'value', 'label');
