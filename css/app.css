@@ -5411,7 +5411,6 @@ ul.pdx-accordion-2 div.accordion-content {
     box-shadow: none;
     padding: 0;
     width: 10%;
-    min-width: 180px;
     margin: 0; }
   .choices[data-type*='select-one'] .choices__input {
     box-shadow: none; }
@@ -5542,6 +5541,9 @@ h1.title-icon-updates span, h2.title-icon-updates span, h3.title-icon-updates sp
   padding-right: 80px;
   padding-bottom: 45px;
   padding-top: 60px; }
+
+a.button i.icon {
+  padding: 0 10px; }
 
 #cancer-types {
   height: 195px;
