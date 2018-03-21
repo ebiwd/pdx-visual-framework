@@ -5064,7 +5064,7 @@ ul.main-menu.menu.dropdown.menu > li.is-dropdown-submenu-parent > a::after {
   transform: translateX(-50%);
   top: 150%;
   min-width: auto;
-  width: 130%;
+  width: 170%;
   border-radius: 0 0 10px 10px;
   box-shadow: 0px 6px 20px #333; }
   .dropdown.menu > li.opens-right > ul.is-dropdown-submenu li {
