@@ -316,6 +316,12 @@
     }
   }
 
+  .light-gray-container {
+    background: $pdx-colour-light2;
+    margin-bottom: -15px;
+    padding: 15px;
+  }
+
   // Main Search.
   form.main-search {
     background: $pdx-colour-dark-white;

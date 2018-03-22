@@ -5071,6 +5071,11 @@ ul.main-menu.menu.dropdown.menu > li.is-dropdown-submenu-parent > a::after {
     font-size: 1rem;
     margin-bottom: 10px; }
 
+.light-gray-container {
+  background: #fafafa;
+  margin-bottom: -15px;
+  padding: 15px; }
+
 form.main-search {
   background: #e6e7e8;
   padding: 50px 0 20px 0; }
