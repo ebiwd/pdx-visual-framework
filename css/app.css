@@ -4841,6 +4841,9 @@ a.tag {
 .is-visible-inline {
   display: inline-block !important; }
 
+html {
+  font-size: 110%; }
+
 h1, h2, h3 {
   text-transform: uppercase; }
 
