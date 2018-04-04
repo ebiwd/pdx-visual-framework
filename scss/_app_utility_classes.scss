@@ -1,0 +1,101 @@
+.padding-15 {
+  padding: 15px;
+}
+
+.padding-top-0 {
+  padding-top: 0;
+}
+
+.padding-vertical-10 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.padding-vertical-15 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.padding-vertical-30 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.border-color-black {
+  border-color: $black;
+}
+
+.no-horz-padding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.margin-top-30 {
+  margin-top: 30px;
+}
+
+.margin-top-40 {
+  margin-top: 40px;
+}
+
+.margin-vertical-30 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.font-color-dark-gray {
+  color: $pdx-colour-dark-grey;
+}
+
+.font-color-blue {
+  color: $pdx-colour-blue;
+}
+
+.font-color-cyan {
+  color: $pdx-colour-cyan;
+}
+
+.font-color-white {
+  color: $white;
+}
+
+.font-style-underline {
+  text-decoration: underline;
+}
+
+.background-color-dark-white {
+  background-color: $pdx-colour-dark-white;
+}
+
+.background-color-primary {
+  background-color: $primary-color;
+}
+
+.background-color-twitter {
+  background-color: $twitter;
+}
+
+.background-color-facebook {
+  background-color: $facebook;
+}
+
+.background-color-instagram {
+  background-color: $instagram;
+}
+
+.min-height-300 {
+  min-height: 300px;
+}
+
+.min-height-400 {
+  min-height: 400px;
+}
+
+.max-height-300-scroll {
+  max-height: 300px;
+  overflow: auto
+}
+
+.full-height {
+  height: 100%;
+}

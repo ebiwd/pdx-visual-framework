@@ -1,0 +1,268 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Kitchen sink < PDX Finder</title>
+  <meta name="description" content="PDX Finder" /><!-- Describe what this page is about -->
+  <meta name="keywords" content="Framework, Life Sciences" /><!-- A few keywords that relate to the content of THIS PAGE (not the whole project) -->
+  <meta name="author" content="PDX Finder" />
+  <meta name="HandheldFriendly" content="true" />
+  <meta name="MobileOptimized" content="width" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+  <link rel="apple-touch-icon" sizes="180x180" href="https://ebiwd.github.io/pdx-visual-framework/images/favicons/apple-touch-icon.png?v=1">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://ebiwd.github.io/pdx-visual-framework/images/favicons/favicon-32x32.png?v=1">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://ebiwd.github.io/pdx-visual-framework/images/favicons/favicon-16x16.png?v=1">
+  <link rel="manifest" href="https://ebiwd.github.io/pdx-visual-framework/images/favicons/manifest.json?v=1">
+  <link rel="mask-icon" href="https://ebiwd.github.io/pdx-visual-framework/images/favicons/safari-pinned-tab.svg?v=1" color="#0032a0">
+  <link rel="shortcut icon" href="https://ebiwd.github.io/pdx-visual-framework/images/favicons/favicon.ico?v=1">
+  <meta name="apple-mobile-web-app-title" content="PDX Finder">
+  <meta name="application-name" content="PDX Finder">
+  <meta name="msapplication-config" content="https://ebiwd.github.io/pdx-visual-framework/images/favicons/browserconfig.xml?v=1">
+  <meta name="theme-color" content="#0032a0">
+  <!-- If you link to any other sites frequently, consider optimising performance with a DNS prefetch -->
+  <!-- <link rel="dns-prefetch" href="//www.ebi.ac.uk" /> -->
+
+  <!-- CSS: implied media=all -->
+  <!-- CSS concatenated and minified via ant build script-->
+
+  <!-- <link rel="stylesheet" href="https://dev.ebi.emblstatic.net/web_guidelines/EBI-Framework/v1.3/css/ebi-global.css" type="text/css" media="all" /> -->
+  <link rel="stylesheet" href="https://dev.ebi.emblstatic.net/web_guidelines/EBI-Icon-fonts/v1.2/fonts.css" type="text/css" media="all" />
+  <!-- Import Choice Library stylesheet-->
+  <link rel="stylesheet" href="https://ebi.emblstatic.net/web_guidelines/EBI-Framework/v1.2/libraries/Choices/assets/styles/css/choices.min.css">
+  <!-- Use this CSS file for any custom styling -->
+  <link rel="stylesheet" href="css/app.css" type="text/css" media="all" />
+
+  <!-- If you have a custom header image or colour -->
+  <!--
+  <meta name="ebi:masthead-color" content="#000" />
+  <meta name="ebi:masthead-image" content="//www.ebi.ac.uk/web_guidelines/EBI-Framework/images/backgrounds/embl-ebi-background.jpg" />
+  -->
+
+  <!-- you can replace this with theme-[projectname].css. See http://www.ebi.ac.uk/web/style/colour for details of how to do this -->
+  <!-- also inform ES so we can host your colour palette file -->
+  <!-- <link rel="stylesheet" href="https://dev.ebi.emblstatic.net/web_guidelines/EBI-Framework/v1.3/css/theme-embl-petrol.css" type="text/css" media="all" /> -->
+  <!-- end CSS-->
+</head>
+
+<body class="level2"><!-- add any of your classes or IDs -->
+
+
+  <div class="expand-menu show-for-small-only">
+    <div class="columns small-2 full-height close-wrapper text-center padding-vertical-15">
+      <a><i class="icon icon-functional" data-icon="x" data-responsive-toggle="expand-menu"></i></a>
+    </div>
+
+    <div class="columns small-10 background-color-primary full-height">
+      <ul class="vertical menu pdx-mobile-menu" data-responsive-menu="drilldown small-accordion">
+        <li>
+          <a href="#">Pages</a>
+          <ul class="menu">
+            <li class="active"><a href="page1.html">Page 1</a></li>
+            <li><a href="page2.html">Page 2</a></li>
+            <li><a href="page3.html">Page 3</a></li>
+          </ul>
+        </li>
+        <li class="active"><a href="#">Models</a></li>
+        <li><a href="#">PDX Standard</a></li>
+        <li><a href="#">Contacts</a></li>
+        <li><a href="#">Join us</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div content="content-wrapper">
+    <div id="skip-to">
+      <a href="#content">Skip to main content</a>
+    </div>
+
+    <div id="content">
+      <div data-sticky-container>
+        <header id="masthead" class="masthead" data-sticky data-options="marginTop: 0">
+          <div class="masthead-inner row">
+            <div class="columns medium-2 small-4 log-column" id="local-title">
+              <h1><a href="index.html" title="Back to [service-name] homepage"><img src="images/logo.png" class="padding-15"/></a></h1>
+            </div>
+            <!-- Desktop Menu-->
+            <div class="columns medium-10 menu-column padding-vertical-30 hide-for-small-only" id="local-nav">
+              <nav>
+                <ul id="local-nav" class="dropdown menu main-menu float-right" data-dropdown-menu data-description="navigational">
+                  <li>
+                    <a href="#">Pages</a>
+                    <ul class="menu">
+                      <li class="active"><a href="page1.html">Page 1</a></li>
+                      <li><a href="page2.html">Page 2</a></li>
+                      <li><a href="page3.html">Page 3</a></li>
+                    </ul>
+                  </li>
+                  <li class="active"><a href="#">Models</a></li>
+                  <li><a href="#">PDX Standard</a></li>
+                  <li><a href="#">Contacts</a></li>
+                  <li><a href="#">Join us</a></li>
+                </ul>
+              </nav>
+            </div>
+            <!-- Mobile Menu -->
+            <div class="columns small-4 show-for-small-only padding-vertical-15 text-right">
+              <a class="menu-toggle"><i class="icon icon-functional" data-icon="M" data-toggle data-responsive-toggle="expand-menu"></i></a>
+            </div>
+          </div>
+        </header>
+      </div>
+      <!-- Suggested layout containers -->
+      <section id="main-content-area" role="main">
+        <!-- Your menu structure should make a breadcrumb redundant, but if a breadcrump is needed uncomment the below -->
+        <nav aria-label="You are here:" role="navigation">
+            <ul class="breadcrumbs row">
+              <li><a href="#">Home</a></li>
+              <li>
+                <span class="show-for-sr">Current: </span> Blank boilerplate
+              </li>
+            </ul>
+          </nav>
+
+        <!-- Search FORM Section -->
+        <section>
+          <form class="main-search">
+            <div class="row">
+              <fieldset>
+                <div class="margin-bottom-none small-collapse">
+                  <!-- Large screen -->
+                  <div class="columns small-2 small-push-2 margin-bottom-small padding-top-large hide-for-small-only">
+                    Enter your search here
+                  </div>
+                  <!-- Small screen-->
+                  <div class="columns small-7 medium-push-2 small-push-3  margin-bottom-none search-text-wrapper show-for-small-only">
+                    Enter your search here
+                  </div>
+
+                  <div class="columns small-7 medium-push-2 small-push-3  margin-bottom-none search-text-wrapper">
+                    <input id="query" class="margin-bottom-none" title="EBI Search" tabindex="2" type="text" name="query" value="" size="35" maxlength="2048" placeholder="E.G. Breast cancer" required="">
+                    <span class="form-error margin-top-small">
+                        You need to enter a search query.
+                    </span>
+                  </div>
+                  <div class="columns small-1 medium-push-2 small-push-3 margin-bottom-none ">
+                    <input id="search_submit" class="button icon icon-functional margin-bottom-none" tabindex="3" type="submit" name="submit1" value="1" style="line-height:.9">
+                  </div>
+                  <!-- <input id="allebi" type="hidden" name="db" value="allebi" checked="checked" /> -->
+                  <input type="hidden" name="requestFrom" value="ebi_index">
+                </div>
+              </fieldset>
+              <fieldset>
+                <div class="medium-push-4 small-push-3 small-8 small padding-top-medium">
+                  <a href="" id="main-search-advanced-link" class="font-color-dark-gray font-style-underline ">Advanced Search</a>
+                </div>
+              </fieldset>
+            </div>
+          </form>
+        </section>
+
+
+        <!-- Three Grids Section -->
+        <section>
+          <div class="row">
+            <div class="columns medium-4 small-12 margin-top-30">
+              <img src="images/image-1.png" />
+            </div>
+
+            <div class="columns medium-4 small-12 margin-top-30">
+              <h4 class="block-title clearfix"><span class="float-left border-color-black">List Title</span></h4>
+              <ul class="cols-2 margin-top-large">
+                <li>Overian: High grade serious</li>
+                <li>Caucasion</li>
+                <li>Tumbour: Primary</li>
+                <li>Therapy: No</li>
+                <li>Grade: IV</li>
+                <li>Female: 65</li>
+              </ul>
+            </div>
+
+            <div class="columns medium-4 small-12 margin-top-30">
+              <p><span class="badge"><i class="icon icon-functional" data-icon="L"></i></span> <a href="#" class="font-style-underline">Show similar</a></p>
+              <p><span class="badge"><i class="icon icon-functional" data-icon="+"></i></span> <a href="#" class="font-style-underline">Add to my list</a></p>
+              <p><span class="badge"><i class="icon icon-functional" data-icon="="></i></span> <a href="#" class="font-style-underline">Download report</a></p>
+
+              <p><a href="#" class="button more uppercase margin-top-large">Contact Provider</a></p>
+            </div>
+          </div>
+        </section>
+
+        <hr class="margin-vertical-30">
+
+        <!-- Tabs Section -->
+        <section class="row">
+          <ul class="tabs style-2" data-tabs id="example2-tabs">
+            <li class="tabs-title is-active"><a href="#model" data-tabs-target="model" aria-selected="true">Model</a></li>
+            <li class="tabs-title"><a href="#drug" data-tabs-target="drug">Drug Response</a></li>
+            <li class="tabs-title"><a href="#data" data-tabs-target="data">Data</a></li>
+          </ul>
+
+          <div class="tabs-content style-2" data-tabs-content="example2-tabs">
+            <div class="tabs-panel is-active" id="model">
+              <p>Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor. Suspendisse dictum feugiat nisl ut dapibus.</p>
+            </div>
+            <div class="tabs-panel" id="drug">
+              <p>Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor. Suspendisse dictum feugiat nisl ut dapibus.</p>
+            </div>
+            <div class="tabs-panel" id="data">
+              <p>Suspendisse dictum feugiat nisl ut dapibus.  Vivamus hendrerit arcu sed erat molestie vehicula. Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor.  Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor.</p>
+            </div>
+          </div>
+        </section>
+
+      </section>
+      <!-- Optional local footer (insert citation / project-specific copyright / etc here -->
+      <!--
+      <footer id="local-footer" class="local-footer" role="local-footer">
+        <div class="row">
+          <span class="reference">How to reference this page: ...</span>
+        </div>
+      </footer>
+      -->
+      <!-- End optional local footer -->
+    </div>
+    <!-- End suggested layout containers / #content -->
+
+    <footer>
+      <div id="global-footer" class="global-footer row">
+        <div class="columns medium-4">
+          <h3 class="highlight green">Quick links</h3>
+          <ul class="no-bullet">
+            <li>Unorderred list</li>
+            <li>Unorderred list</li>
+            <li>Unorderred list</li>
+          </ul>
+        </div>
+
+        <div class="columns medium-4">
+          <h3 class="highlight green">Contacts</h3>
+          <ul class="no-bullet">
+            <li><a href="#">Link</a></li>
+            <li>Unorderred list</li>
+            <li>Unorderred list</li>
+          </ul>
+        </div>
+
+        <div class="columns medium-4">
+          <h3 class="highlight">&nbsp;</h3>
+          A joint procet
+        </div>
+      </div>
+    </footer>
+  </div>
+  <!-- JavaScript -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="https://wwwdev.ebi.ac.uk/web_guidelines/EBI-Framework/v1.3/libraries/foundation-6/js/foundation.js"></script>
+  <script src="https://ebi.emblstatic.net/web_guidelines/EBI-Framework/v1.2/libraries/Choices/assets/scripts/dist/choices.min.js"></script>
+  <script src="./js/script.js"></script>
+
+  <!-- <script src="https://wwwdev.ebi.ac.uk/web_guidelines/EBI-Framework/v1.3/js/foundationExtendEBI.js"></script> -->
+  <!-- <script type="text/JavaScript">$(document).foundationExtendEBI();</script> -->
+
+  <!-- Google Analytics details... -->
+  <!-- Change UA-XXXXX-X to be your site's ID -->
+  <!-- <script type="text/javascript">!function(e,a,n,t,i,o,c){e.GoogleAnalyticsObject=i,e[i]=e[i]||function(){(e[i].q=e[i].q||[]).push(arguments)},e[i].l=1*new Date,o=a.createElement(n),c=a.getElementsByTagName(n)[0],o.async=1,o.src="//www.google-analytics.com/analytics.js",c.parentNode.insertBefore(o,c)}(window,document,"script",0,"ga"),ga("create","UA-629242-1",{cookieDomain:"auto"}),ga("require","linkid","linkid.js"),ga("set","anonymizeIp",!0),ga("send","pageview");</script> -->
+</body>
+</html>
