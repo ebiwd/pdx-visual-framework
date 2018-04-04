@@ -280,8 +280,8 @@
       font-weight: $global-weight-bold;
       padding: 0 15px;
 
-      &.active a,
-      a.active,
+      &.active > a,
+      & > a.active,
       &:hover > a {
         background: none;
         color: $ebi-colour-dark;
