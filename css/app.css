@@ -3929,7 +3929,9 @@ table {
   width: 100%;
   margin-bottom: 1rem;
   border-radius: 0; }
-  thead, tbody, tfoot {
+  thead,
+  tbody,
+  tfoot {
     border: 1px solid #f1f1f1;
     background-color: #fefefe; }
   caption {
@@ -3941,13 +3943,18 @@ table {
   tfoot {
     background: #f1f1f1;
     color: #000; }
-  thead tr, tfoot tr {
+  thead tr,
+  tfoot tr {
     background: transparent; }
-  thead th, thead td, tfoot th, tfoot td {
+  thead th,
+  thead td,
+  tfoot th,
+  tfoot td {
     padding: 0.5rem 0.625rem 0.625rem;
     font-weight: 700;
     text-align: left; }
-  tbody th, tbody td {
+  tbody th,
+  tbody td {
     padding: 0.5rem 0.625rem 0.625rem; }
   tbody tr:nth-child(even) {
     border-bottom: 0;
@@ -4659,7 +4666,8 @@ ul li.badge {
 
 /* print styles */
 @media print {
-  a, a:visited {
+  a,
+  a:visited {
     border-bottom: none; }
   #skip-to,
   form#local-search,
@@ -4982,8 +4990,7 @@ a.button.bold {
     .tabs-title a {
       padding: 1rem; } }
 
-.tabs-title > a:focus,
-.tabs-title > a[aria-selected='true'] {
+.tabs-title > a:focus, .tabs-title > a[aria-selected='true'] {
   background: none; }
 
 .tabs.style-2 {
@@ -5482,18 +5489,20 @@ ul.pdx-accordion-2 div.accordion-content {
       color: #06369d; }
 
 .counter-link-item {
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+  margin-left: 3em; }
   .counter-link-item .item-number {
     display: inline-block;
     font-weight: 900;
     min-width: 45px;
     padding-right: 5px;
-    margin-right: 15px;
+    margin-left: -3em;
+    text-align: right;
     border-right: 2px solid #73cfaf;
     float: left; }
   .counter-link-item .item-link {
     text-decoration: underline;
-    word-break: break-all; }
+    word-break: normal; }
   .counter-link-item i.has-tip {
     border-bottom: none;
     margin-left: 5px;
